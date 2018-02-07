@@ -3,6 +3,32 @@
 *Group repo for COMP 3500*  
 *Feel free to add to this as you please*
 
+**Basic terminal commands**
+-
+ * Change Directory  
+ `cd `*`/folder/subfolder`*  
+ `'~'` means start at the root folder  
+ `cd .. ` will go up one folder  
+ You can even chain these to go up multiple folders: `cd ../../..`
+ * List files and folder in current directory  
+ `ls`
+ * See what folder you are currently in  
+ `pwd` (present working directory)
+ * Copy a file to another place  
+ `cp `*`source destination`*  
+ Add `-r` to copy folders (`cp -r`)
+ * "Piping" output to a file  
+ *`commmand`*` > `*`fileName`*  
+ Make it `>>` to add to the end of an existing file so you don't overwrite it
+ * Creating a script
+   1. `script `*`fileName.script`*
+   2. `exit` or Ctrl-D to end
+ * Making a directory  
+ `mkdir `*`directoryName`*
+ * Removing a directory or file  
+ `rmdir `*`directoryName`*  
+ `rm `*`fileName`*
+
 **Helpful git commands**
 -
   * Starting out: (*only do this once*)
