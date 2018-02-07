@@ -1,0 +1,904 @@
+Checking directory... /root/cs161
+Checking where the files are... /cs161/cs161-gdb-1.5/./gdb-6.6+cs161
+******** Configuring gdb ********
+creating cache ./config.cache
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... mips-unknown-elf
+checking build system type... x86_64-unknown-linux-gnu
+checking for a BSD compatible install... /usr/bin/install -c
+checking whether ln works... yes
+checking whether ln -s works... yes
+checking for gcc... gcc
+checking whether the C compiler (gcc  ) works... yes
+checking whether the C compiler (gcc  ) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gnatbind... no
+checking whether compiler driver understands Ada... no
+checking how to compare bootstrapped objects... cmp --ignore-initial=16 $$f1 $$f2
+checking for correct version of gmp.h... no
+checking for bison... no
+checking for byacc... no
+checking for yacc... no
+checking for bison... no
+checking for gm4... no
+checking for gnum4... no
+checking for m4... no
+checking for flex... no
+checking for lex... no
+checking for flex... no
+checking for makeinfo... no
+checking for expect... no
+checking for runtest... no
+checking for x86_64-unknown-linux-gnu-ar... no
+checking for ar... ar
+checking for x86_64-unknown-linux-gnu-as... no
+checking for as... as
+checking for x86_64-unknown-linux-gnu-dlltool... no
+checking for dlltool... no
+checking for x86_64-unknown-linux-gnu-ld... no
+checking for ld... ld
+checking for x86_64-unknown-linux-gnu-lipo... no
+checking for lipo... no
+checking for x86_64-unknown-linux-gnu-nm... no
+checking for nm... nm
+checking for x86_64-unknown-linux-gnu-ranlib... no
+checking for ranlib... ranlib
+checking for x86_64-unknown-linux-gnu-strip... no
+checking for strip... strip
+checking for x86_64-unknown-linux-gnu-windres... no
+checking for windres... no
+checking for x86_64-unknown-linux-gnu-objcopy... no
+checking for objcopy... objcopy
+checking for x86_64-unknown-linux-gnu-objdump... no
+checking for objdump... objdump
+checking for mips-elf-cc... no
+checking for mips-elf-gcc... no
+checking for mips-elf-c++... no
+checking for mips-elf-g++... no
+checking for mips-elf-cxx... no
+checking for mips-elf-gxx... no
+checking for mips-elf-gcc... no
+checking for mips-elf-gcj... no
+checking for mips-elf-gfortran... no
+checking for ar... no
+checking for mips-elf-ar... no
+checking for as... no
+checking for mips-elf-as... no
+checking for dlltool... no
+checking for mips-elf-dlltool... no
+checking for ld... no
+checking for mips-elf-ld... no
+checking for lipo... no
+checking for mips-elf-lipo... no
+checking for nm... no
+checking for mips-elf-nm... no
+checking for objdump... no
+checking for mips-elf-objdump... no
+checking for ranlib... no
+checking for mips-elf-ranlib... no
+checking for strip... no
+checking for mips-elf-strip... no
+checking for windres... no
+checking for mips-elf-windres... no
+checking where to find the target ar... pre-installed
+checking where to find the target as... pre-installed
+checking where to find the target cc... pre-installed
+checking where to find the target c++... pre-installed
+checking where to find the target c++ for libstdc++... pre-installed
+checking where to find the target dlltool... pre-installed
+checking where to find the target gcc... pre-installed
+checking where to find the target gcj... pre-installed
+checking where to find the target gfortran... pre-installed
+checking where to find the target ld... pre-installed
+checking where to find the target lipo... pre-installed
+checking where to find the target nm... pre-installed
+checking where to find the target objdump... pre-installed
+checking where to find the target ranlib... pre-installed
+checking where to find the target strip... pre-installed
+checking where to find the target windres... pre-installed
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether -fkeep-inline-functions is supported... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+******** Compiling gdb ********
+make[1]: Entering directory `/cs161/cs161-gdb-1.5'
+mkdir -p -- ./libiberty
+Configuring in ./libiberty
+configure: creating cache ./config.cache
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for makeinfo... /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing makeinfo --split-size=5000000
+checking for perl... perl
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for x86_64-unknown-linux-gnu-ar... ar
+checking for x86_64-unknown-linux-gnu-ranlib... ranlib
+checking for x86_64-unknown-linux-gnu-gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking how to run the C preprocessor... gcc -E
+checking whether gcc accepts -Wc++-compat... yes
+checking whether gcc and cc understand -c and -o together... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for sys/file.h... yes
+checking for sys/param.h... yes
+checking for limits.h... yes
+checking for stdlib.h... yes
+checking for malloc.h... yes
+checking for string.h... yes
+checking for unistd.h... yes
+checking for strings.h... yes
+checking for sys/time.h... yes
+checking for time.h... yes
+checking for sys/resource.h... yes
+checking for sys/stat.h... yes
+checking for sys/mman.h... yes
+checking for fcntl.h... yes
+checking for alloca.h... yes
+checking for sys/pstat.h... no
+checking for sys/sysmp.h... no
+checking for sys/sysinfo.h... yes
+checking for machine/hal_sysinfo.h... no
+checking for sys/table.h... no
+checking for sys/sysctl.h... yes
+checking for sys/systemcfg.h... no
+checking for stdint.h... yes
+checking for stdio_ext.h... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether errno must be declared... no
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for memory.h... yes
+checking for strings.h... (cached) yes
+checking for inttypes.h... yes
+checking for stdint.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for int... yes
+checking size of int... 4
+checking for uintptr_t... yes
+checking for a 64-bit type... uint64_t
+checking for pid_t... yes
+checking for library containing strerror... none required
+checking for asprintf... yes
+checking for atexit... yes
+checking for basename... yes
+checking for bcmp... yes
+checking for bcopy... yes
+checking for bsearch... yes
+checking for bzero... yes
+checking for calloc... yes
+checking for clock... yes
+checking for ffs... yes
+checking for getcwd... yes
+checking for getpagesize... yes
+checking for gettimeofday... yes
+checking for index... yes
+checking for insque... yes
+checking for memchr... yes
+checking for memcmp... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for mempcpy... yes
+checking for memset... yes
+checking for mkstemps... yes
+checking for putenv... yes
+checking for random... yes
+checking for rename... yes
+checking for rindex... yes
+checking for setenv... yes
+checking for snprintf... yes
+checking for sigsetmask... yes
+checking for stpcpy... yes
+checking for stpncpy... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strncasecmp... yes
+checking for strndup... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtod... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for strverscmp... yes
+checking for tmpnam... yes
+checking for vasprintf... yes
+checking for vfprintf... yes
+checking for vprintf... yes
+checking for vsnprintf... yes
+checking for vsprintf... yes
+checking for waitpid... yes
+checking whether alloca needs Cray hooks... no
+checking stack direction for C alloca... -1
+checking for unistd.h... (cached) yes
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for _doprnt... no
+checking for sys_errlist... yes
+checking for sys_nerr... yes
+checking for sys_siglist... yes
+checking for external symbol _system_configuration... no
+checking for getrusage... yes
+checking for on_exit... yes
+checking for psignal... yes
+checking for strerror... yes
+checking for strsignal... yes
+checking for sysconf... yes
+checking for times... yes
+checking for sbrk... yes
+checking for gettimeofday... (cached) yes
+checking for realpath... yes
+checking for canonicalize_file_name... yes
+checking for pstat_getstatic... no
+checking for pstat_getdynamic... no
+checking for sysmp... no
+checking for getsysinfo... no
+checking for table... no
+checking for sysctl... yes
+checking for wait3... yes
+checking for wait4... yes
+checking for __fsetlocking... yes
+checking whether basename is declared... no
+checking whether ffs is declared... yes
+checking whether asprintf is declared... no
+checking whether vasprintf is declared... no
+checking whether snprintf is declared... yes
+checking whether vsnprintf is declared... yes
+checking whether calloc is declared... yes
+checking whether getenv is declared... yes
+checking whether getopt is declared... yes
+checking whether malloc is declared... yes
+checking whether realloc is declared... yes
+checking whether sbrk is declared... yes
+checking whether strverscmp is declared... no
+checking whether canonicalize_file_name must be declared... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... (cached) yes
+checking for working mmap... yes
+checking for working strncmp... yes
+updating cache ./config.cache
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating testsuite/Makefile
+config.status: creating config.h
+config.status: executing default commands
+mkdir -p -- ./intl
+Configuring in ./intl
+configure: creating cache ./config.cache
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for x86_64-unknown-linux-gnu-gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for x86_64-unknown-linux-gnu-ranlib... ranlib
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking whether integer division by zero raises SIGFPE... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unsigned long long... yes
+checking for inttypes.h... yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for ld used by GCC... ld
+checking if the linker (ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking argz.h usability... yes
+checking argz.h presence... yes
+checking for argz.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for feof_unlocked... yes
+checking for fgets_unlocked... yes
+checking for getc_unlocked... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for stpcpy... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for __argz_count... yes
+checking for __argz_stringify... yes
+checking for __argz_next... yes
+checking for __fsetlocking... yes
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking for bison... no
+checking whether NLS is requested... yes
+checking whether included gettext is requested... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for aclocal... no
+checking for autoconf... no
+checking for autoheader... no
+updating cache ./config.cache
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.intl
+config.status: creating config.h
+config.status: executing default-1 commands
+mkdir -p -- ./bfd
+Configuring in ./bfd
+configure: creating cache ./config.cache
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... mips-unknown-elf
+checking for x86_64-unknown-linux-gnu-gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for library containing strerror... none required
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... none
+checking for x86_64-unknown-linux-gnu-ar... ar
+checking for x86_64-unknown-linux-gnu-ranlib... ranlib
+checking for ld used by GCC... ld
+checking if the linker (ld) is GNU ld... yes
+checking for ld option to reload object files... -r
+checking for BSD-compatible nm... nm
+checking whether ln -s works... yes
+checking how to recognise dependant libraries... pass_all
+checking the maximum length of command line arguments... none
+checking for x86_64-unknown-linux-gnu-ranlib... (cached) ranlib
+checking for x86_64-unknown-linux-gnu-strip... no
+checking for strip... strip
+updating cache ./config.cache
+loading cache ./config.cache within ltconfig
+checking for objdir... .libs
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+finding the maximum length of command line arguments... 49153
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -fno-rtti -fno-exceptions ... no
+checking whether the linker (ld -m elf_x86_64) supports shared libraries... yes
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking command to parse nm output... ok
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+creating libtool
+updating cache ./config.cache
+configure: loading cache ./config.cache
+Setting warning flags = -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether to install libbfd... no
+checking for x86_64-unknown-linux-gnu-gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ANSI C... (cached) none needed
+checking whether NLS is requested... yes
+checking for catalogs to be installed...  da es fr ja ro rw sv tr vi zh_CN da es fr ja ro rw sv tr vi zh_CN
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for long long... yes
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for long long... yes
+checking size of long long... 8
+checking for long... yes
+checking size of long... 8
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether string.h and strings.h may both be included... yes
+checking for fcntl... yes
+checking for getpagesize... yes
+checking for setitimer... yes
+checking for sysconf... yes
+checking for fdopen... yes
+checking for getuid... yes
+checking for getgid... yes
+checking for strtoull... yes
+checking whether basename is declared... yes
+checking whether ftello is declared... yes
+checking whether ftello64 is declared... yes
+checking whether fseeko is declared... yes
+checking whether fseeko64 is declared... yes
+checking whether ffs is declared... yes
+checking whether free is declared... yes
+checking whether getenv is declared... yes
+checking whether malloc is declared... yes
+checking whether realloc is declared... yes
+checking whether stpcpy is declared... yes
+checking whether strstr is declared... yes
+checking whether snprintf is declared... yes
+checking whether vsnprintf is declared... yes
+checking for gcc version with buggy 64-bit support... no
+checking for ftello... yes
+checking for ftello64... yes
+checking for fseeko... yes
+checking for fseeko64... yes
+checking for fopen64... yes
+checking for off_t... yes
+checking size of off_t... 8
+checking file_ptr type... BFD_HOST_64_BIT
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... (cached) yes
+checking for working mmap... yes
+checking for madvise... yes
+checking for mprotect... yes
+updating cache ./config.cache
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating bfd-in3.h
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing default commands
+make[2]: Entering directory `/cs161/cs161-gdb-1.5/libiberty'
+if [ x"" != x ] && [ ! -d pic ]; then \
+  mkdir pic; \
+else true; fi
+touch stamp-picdir
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/regex.c -o pic/regex.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/regex.c -o regex.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/cplus-dem.c -o pic/cplus-dem.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/cplus-dem.c -o cplus-dem.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/cp-demangle.c -o pic/cp-demangle.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/cp-demangle.c -o cp-demangle.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/md5.c -o pic/md5.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/md5.c -o md5.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/alloca.c -o pic/alloca.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/alloca.c -o alloca.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/argv.c -o pic/argv.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/argv.c -o argv.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/choose-temp.c -o pic/choose-temp.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/choose-temp.c -o choose-temp.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/concat.c -o pic/concat.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/concat.c -o concat.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/cp-demint.c -o pic/cp-demint.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/cp-demint.c -o cp-demint.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/dyn-string.c -o pic/dyn-string.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/dyn-string.c -o dyn-string.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fdmatch.c -o pic/fdmatch.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fdmatch.c -o fdmatch.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fibheap.c -o pic/fibheap.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fibheap.c -o fibheap.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/floatformat.c -o pic/floatformat.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/floatformat.c -o floatformat.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fnmatch.c -o pic/fnmatch.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fnmatch.c -o fnmatch.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fopen_unlocked.c -o pic/fopen_unlocked.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/fopen_unlocked.c -o fopen_unlocked.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getopt.c -o pic/getopt.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getopt.c -o getopt.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getopt1.c -o pic/getopt1.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getopt1.c -o getopt1.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getpwd.c -o pic/getpwd.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getpwd.c -o getpwd.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getruntime.c -o pic/getruntime.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/getruntime.c -o getruntime.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/hashtab.c -o pic/hashtab.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/hashtab.c -o hashtab.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/hex.c -o pic/hex.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/hex.c -o hex.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/lbasename.c -o pic/lbasename.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/lbasename.c -o lbasename.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/lrealpath.c -o pic/lrealpath.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/lrealpath.c -o lrealpath.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/make-relative-prefix.c -o pic/make-relative-prefix.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/make-relative-prefix.c -o make-relative-prefix.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/make-temp-file.c -o pic/make-temp-file.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/make-temp-file.c -o make-temp-file.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/objalloc.c -o pic/objalloc.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/objalloc.c -o objalloc.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/obstack.c -o pic/obstack.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/obstack.c -o obstack.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/partition.c -o pic/partition.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/partition.c -o partition.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pexecute.c -o pic/pexecute.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pexecute.c -o pexecute.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/physmem.c -o pic/physmem.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/physmem.c -o physmem.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pex-common.c -o pic/pex-common.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pex-common.c -o pex-common.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pex-one.c -o pic/pex-one.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pex-one.c -o pex-one.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pex-unix.c -o pic/pex-unix.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/pex-unix.c -o pex-unix.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/safe-ctype.c -o pic/safe-ctype.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/safe-ctype.c -o safe-ctype.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/sort.c -o pic/sort.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/sort.c -o sort.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/spaces.c -o pic/spaces.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/spaces.c -o spaces.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/splay-tree.c -o pic/splay-tree.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/splay-tree.c -o splay-tree.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/strerror.c -o pic/strerror.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/strerror.c -o strerror.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/strsignal.c -o pic/strsignal.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/strsignal.c -o strsignal.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/ternary.c -o pic/ternary.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/ternary.c -o ternary.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/unlink-if-ordinary.c -o pic/unlink-if-ordinary.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/unlink-if-ordinary.c -o unlink-if-ordinary.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xatexit.c -o pic/xatexit.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xatexit.c -o xatexit.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xexit.c -o pic/xexit.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xexit.c -o xexit.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xmalloc.c -o pic/xmalloc.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xmalloc.c -o xmalloc.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xmemdup.c -o pic/xmemdup.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xmemdup.c -o xmemdup.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xstrdup.c -o pic/xstrdup.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xstrdup.c -o xstrdup.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xstrerror.c -o pic/xstrerror.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xstrerror.c -o xstrerror.o
+if [ x"" != x ]; then \
+  gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat  /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xstrndup.c -o pic/xstrndup.o; \
+else true; fi
+gcc -c -DHAVE_CONFIG_H -g -O2 -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/../include  -W -Wall -pedantic -Wwrite-strings -Wstrict-prototypes -Wc++-compat /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/xstrndup.c -o xstrndup.o
+rm -f ./libiberty.a pic/./libiberty.a
+ar rc ./libiberty.a \
+  ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./alloca.o ./argv.o ./choose-temp.o ./concat.o ./cp-demint.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./safe-ctype.o ./sort.o ./spaces.o ./splay-tree.o ./strerror.o ./strsignal.o ./ternary.o ./unlink-if-ordinary.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o  
+ranlib ./libiberty.a
+if [ x"" != x ]; then \
+  cd pic; \
+  ar rc ./libiberty.a \
+    ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./alloca.o ./argv.o ./choose-temp.o ./concat.o ./cp-demint.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./safe-ctype.o ./sort.o ./spaces.o ./splay-tree.o ./strerror.o ./strsignal.o ./ternary.o ./unlink-if-ordinary.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o  ; \
+  ranlib ./libiberty.a; \
+  cd ..; \
+else true; fi
+rm -f needed-list; touch needed-list; \
+for f in atexit calloc memchr memcmp memcpy memmove memset rename strchr strerror strncmp strrchr strstr strtol strtoul tmpnam vfprintf vprintf vfork waitpid bcmp bcopy bzero; do \
+  for g in  ; do \
+    case "$g" in \
+      *$f*) echo $g >> needed-list ;; \
+    esac; \
+  done; \
+done
+echo ./regex.o ./cplus-dem.o ./cp-demangle.o ./md5.o ./alloca.o ./argv.o ./choose-temp.o ./concat.o ./cp-demint.o ./dyn-string.o ./fdmatch.o ./fibheap.o ./floatformat.o ./fnmatch.o ./fopen_unlocked.o ./getopt.o ./getopt1.o ./getpwd.o ./getruntime.o ./hashtab.o ./hex.o ./lbasename.o ./lrealpath.o ./make-relative-prefix.o ./make-temp-file.o ./objalloc.o ./obstack.o ./partition.o ./pexecute.o ./physmem.o ./pex-common.o ./pex-one.o ./pex-unix.o ./safe-ctype.o ./sort.o ./spaces.o ./splay-tree.o ./strerror.o ./strsignal.o ./ternary.o ./unlink-if-ordinary.o ./xatexit.o ./xexit.o ./xmalloc.o ./xmemdup.o ./xstrdup.o ./xstrerror.o ./xstrndup.o > required-list
+make[3]: Entering directory `/cs161/cs161-gdb-1.5/libiberty/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/cs161/cs161-gdb-1.5/libiberty/testsuite'
+make[2]: Leaving directory `/cs161/cs161-gdb-1.5/libiberty'
+make[2]: Entering directory `/cs161/cs161-gdb-1.5/intl'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cs161/cs161-gdb-1.5/intl'
+make[2]: Entering directory `/cs161/cs161-gdb-1.5/bfd'
+Making info in doc
+make[3]: Entering directory `/cs161/cs161-gdb-1.5/bfd/doc'
+make[3]: Nothing to be done for `info'.
+make[3]: Leaving directory `/cs161/cs161-gdb-1.5/bfd/doc'
+Making info in po
+make[3]: Entering directory `/cs161/cs161-gdb-1.5/bfd/po'
+( if test 'x/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/po' != 'x.'; then \
+    posrcprefix='/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/'; \
+  else \
+    posrcprefix="../"; \
+  fi; \
+  rm -f SRC-POTFILES-t SRC-POTFILES \
+    && (sed -e '/^#/d' \
+            -e '/^[ 	]*$/d' \
+	    -e "s@.*@	$posrcprefix& \\\\@" < /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/po/SRC-POTFILES.in \
+	| sed -e '$s/\\$//') > SRC-POTFILES-t \
+    && chmod a-w SRC-POTFILES-t \
+    && mv SRC-POTFILES-t SRC-POTFILES )
+( rm -f BLD-POTFILES-t BLD-POTFILES \
+    && (sed -e '/^#/d' \
+            -e '/^[ 	]*$/d' \
+	    -e "s@.*@	../& \\\\@" < /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/po/BLD-POTFILES.in \
+	| sed -e '$s/\\$//') > BLD-POTFILES-t \
+    && chmod a-w BLD-POTFILES-t \
+    && mv BLD-POTFILES-t BLD-POTFILES )
+cd .. \
+  && CONFIG_FILES=po/Makefile.in:po/Make-in \
+     CONFIG_HEADERS= /bin/sh ./config.status
+config.status: creating po/Makefile.in
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing default commands
+make[3]: Leaving directory `/cs161/cs161-gdb-1.5/bfd/po'
+make[3]: Entering directory `/cs161/cs161-gdb-1.5/bfd/po'
+make[3]: Nothing to be done for `info'.
+make[3]: Leaving directory `/cs161/cs161-gdb-1.5/bfd/po'
+make[3]: Entering directory `/cs161/cs161-gdb-1.5/bfd'
+make[3]: Nothing to be done for `info-am'.
+make[3]: Leaving directory `/cs161/cs161-gdb-1.5/bfd'
+make  all-recursive
+make[3]: Entering directory `/cs161/cs161-gdb-1.5/bfd'
+Making all in doc
+make[4]: Entering directory `/cs161/cs161-gdb-1.5/bfd/doc'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/cs161/cs161-gdb-1.5/bfd/doc'
+Making all in po
+make[4]: Entering directory `/cs161/cs161-gdb-1.5/bfd/po'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/cs161/cs161-gdb-1.5/bfd/po'
+make[4]: Entering directory `/cs161/cs161-gdb-1.5/bfd'
+rm -f bfd-tmp.h
+cp bfd-in3.h bfd-tmp.h
+/bin/sh /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../move-if-change bfd-tmp.h bfd.h
+rm -f bfd-tmp.h
+touch stmp-bfd-h
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o archive.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/archive.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/archive.c -o archive.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -DDEFAULT_VECTOR=bfd_elf32_bigmips_vec -DSELECT_VECS='&bfd_elf32_bigmips_vec,&bfd_elf32_littlemips_vec,&bfd_elf64_bigmips_vec,&bfd_elf64_littlemips_vec,&bfd_elf64_little_generic_vec,&bfd_elf64_big_generic_vec,&bfd_elf32_little_generic_vec,&bfd_elf32_big_generic_vec' -DSELECT_ARCHITECTURES='&bfd_mips_arch' -DHAVE_bfd_elf32_bigmips_vec -DHAVE_bfd_elf32_littlemips_vec -DHAVE_bfd_elf64_bigmips_vec -DHAVE_bfd_elf64_littlemips_vec -DHAVE_bfd_elf64_little_generic_vec -DHAVE_bfd_elf64_big_generic_vec -DHAVE_bfd_elf32_little_generic_vec -DHAVE_bfd_elf32_big_generic_vec /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/archures.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -DDEFAULT_VECTOR=bfd_elf32_bigmips_vec "-DSELECT_VECS=&bfd_elf32_bigmips_vec,&bfd_elf32_littlemips_vec,&bfd_elf64_bigmips_vec,&bfd_elf64_littlemips_vec,&bfd_elf64_little_generic_vec,&bfd_elf64_big_generic_vec,&bfd_elf32_little_generic_vec,&bfd_elf32_big_generic_vec" "-DSELECT_ARCHITECTURES=&bfd_mips_arch" -DHAVE_bfd_elf32_bigmips_vec -DHAVE_bfd_elf32_littlemips_vec -DHAVE_bfd_elf64_bigmips_vec -DHAVE_bfd_elf64_littlemips_vec -DHAVE_bfd_elf64_little_generic_vec -DHAVE_bfd_elf64_big_generic_vec -DHAVE_bfd_elf32_little_generic_vec -DHAVE_bfd_elf32_big_generic_vec /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/archures.c -o archures.o
+creating bfdver.h
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o bfd.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/bfd.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/bfd.c -o bfd.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o bfdio.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/bfdio.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/bfdio.c -o bfdio.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o bfdwin.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/bfdwin.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/bfdwin.c -o bfdwin.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o cache.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/cache.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/cache.c -o cache.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o coffgen.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/coffgen.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/coffgen.c -o coffgen.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o corefile.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/corefile.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/corefile.c -o corefile.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o format.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/format.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/format.c -o format.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o init.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/init.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/init.c -o init.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o libbfd.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/libbfd.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/libbfd.c -o libbfd.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o opncls.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/opncls.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/opncls.c -o opncls.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o reloc.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/reloc.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/reloc.c -o reloc.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o section.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/section.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/section.c -o section.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o syms.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/syms.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/syms.c -o syms.o
+rm -f targmatch.h
+sed -f /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/targmatch.sed < /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/config.bfd > targmatch.new
+mv -f targmatch.new targmatch.h
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -DDEFAULT_VECTOR=bfd_elf32_bigmips_vec -DSELECT_VECS='&bfd_elf32_bigmips_vec,&bfd_elf32_littlemips_vec,&bfd_elf64_bigmips_vec,&bfd_elf64_littlemips_vec,&bfd_elf64_little_generic_vec,&bfd_elf64_big_generic_vec,&bfd_elf32_little_generic_vec,&bfd_elf32_big_generic_vec' -DSELECT_ARCHITECTURES='&bfd_mips_arch' -DHAVE_bfd_elf32_bigmips_vec -DHAVE_bfd_elf32_littlemips_vec -DHAVE_bfd_elf64_bigmips_vec -DHAVE_bfd_elf64_littlemips_vec -DHAVE_bfd_elf64_little_generic_vec -DHAVE_bfd_elf64_big_generic_vec -DHAVE_bfd_elf32_little_generic_vec -DHAVE_bfd_elf32_big_generic_vec /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/targets.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -DDEFAULT_VECTOR=bfd_elf32_bigmips_vec "-DSELECT_VECS=&bfd_elf32_bigmips_vec,&bfd_elf32_littlemips_vec,&bfd_elf64_bigmips_vec,&bfd_elf64_littlemips_vec,&bfd_elf64_little_generic_vec,&bfd_elf64_big_generic_vec,&bfd_elf32_little_generic_vec,&bfd_elf32_big_generic_vec" "-DSELECT_ARCHITECTURES=&bfd_mips_arch" -DHAVE_bfd_elf32_bigmips_vec -DHAVE_bfd_elf32_littlemips_vec -DHAVE_bfd_elf64_bigmips_vec -DHAVE_bfd_elf64_littlemips_vec -DHAVE_bfd_elf64_little_generic_vec -DHAVE_bfd_elf64_big_generic_vec -DHAVE_bfd_elf32_little_generic_vec -DHAVE_bfd_elf32_big_generic_vec /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/targets.c -o targets.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o hash.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/hash.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/hash.c -o hash.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o linker.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/linker.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/linker.c -o linker.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o srec.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/srec.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/srec.c -o srec.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o binary.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/binary.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/binary.c -o binary.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o tekhex.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/tekhex.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/tekhex.c -o tekhex.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o ihex.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/ihex.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/ihex.c -o ihex.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o stabs.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/stabs.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/stabs.c -o stabs.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o stab-syms.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/stab-syms.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/stab-syms.c -o stab-syms.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o merge.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/merge.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/merge.c -o merge.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o dwarf2.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/dwarf2.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/dwarf2.c -o dwarf2.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o simple.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/simple.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/simple.c -o simple.o
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include     -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c -o archive64.lo /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/archive64.c
+gcc -DHAVE_CONFIG_H -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I. -I. -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd -I/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../include -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror -g -O2 -c /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/archive64.c -o archive64.o
+make[4]: Leaving directory `/cs161/cs161-gdb-1.5/bfd'
+make[3]: Leaving directory `/cs161/cs161-gdb-1.5/bfd'
+make[2]: Leaving directory `/cs161/cs161-gdb-1.5/bfd'
+make[1]: Leaving directory `/cs161/cs161-gdb-1.5'

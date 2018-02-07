@@ -1,0 +1,39 @@
+Script started on Tue 06 Feb 2018 08:54:52 PM CST
+]777;notify;Command completed;exit]0;zdebardlebon@localhost:/cs161/asst0]7;file://localhost.localdomain/cs161/asst0[?1034h[root@localhost asst0]# mkdir[K[K[K[K[Kcd ..
+]777;notify;Command completed;cd ..]0;zdebardlebon@localhost:/cs161]7;file://localhost.localdomain/cs161[root@localhost cs161]# mkdir ~/cs161/cvsroot
+mkdir: cannot create directory ‘/root/cs161/cvsroot’: File exists
+]777;notify;Command completed;mkdir ~/cs161/cvsroot]0;zdebardlebon@localhost:/cs161]7;file://localhost.localdomain/cs161[root@localhost cs161]# export CVSROOT [K-[K=~~[K[K~/CVS[K[K[Kcvsroot[K[K[K[K[K[Ks161/cvsroot
+]777;notify;Command completed;export CVSROOT=~/cs161/cvsroot]0;zdebardlebon@localhost:/cs161]7;file://localhost.localdomain/cs161[root@localhost cs161]# echo $CVSROOT
+/root/cs161/cvsroot
+]777;notify;Command completed;echo $CVSROOT]0;zdebardlebon@localhost:/cs161]7;file://localhost.localdomain/cs161[root@localhost cs161]# cvs init[K[K[K[K[K[K[K[Kcd cvs[K[K[Kecho $CVSROOTxport CVSROOT=~/cs161/cvsroot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pmkdir ~/cs161/cvsroot[C[1P ~/cs161/cvsroot[1P ~/cs161/cvsroot[1P ~/cs161/cvsroot[1P ~/cs161/cvsroot[1P ~/cs161/cvsrootc ~/cs161/cvsrootd ~/cs161/cvsroot
+]777;notify;Command completed;cd ~/cs161/cvsroot]0;zdebardlebon@localhost:~/cs161/cvsroot]7;file://localhost.localdomain/root/cs161/cvsroot[root@localhost cvsroot]# cvs init
+]777;notify;Command completed;cvs init]0;zdebardlebon@localhost:~/cs161/cvsroot]7;file://localhost.localdomain/root/cs161/cvsroot[root@localhost cvsroot]# cdvs initd ~/cs161/cvsroot[K[K[K[K[K[K[Kos161
+bash: cd: /root/cs161/os161: No such file or directory
+]777;notify;Command completed;cd ~/cs161/os161]0;zdebardlebon@localhost:~/cs161/cvsroot]7;file://localhost.localdomain/root/cs161/cvsroot[root@localhost cvsroot]# cd cs161
+bash: cd: cs161: No such file or directory
+]777;notify;Command completed;cd cs161]0;zdebardlebon@localhost:~/cs161/cvsroot]7;file://localhost.localdomain/root/cs161/cvsroot[root@localhost cvsroot]# cd ~~[K/cs161
+]777;notify;Command completed;cd ~/cs161]0;zdebardlebon@localhost:~/cs161]7;file://localhost.localdomain/root/cs161[root@localhost cs161]# ls
+[0m[38;5;27mbin[0m  [38;5;27mcvsroot[0m  [38;5;27mroot[0m  [38;5;27mtools[0m
+]777;notify;Command completed;ls]0;zdebardlebon@localhost:~/cs161]7;file://localhost.localdomain/root/cs161[root@localhost cs161]# cd bin
+]777;notify;Command completed;cd bin]0;zdebardlebon@localhost:~/cs161/bin]7;file://localhost.localdomain/root/cs161/bin[root@localhost bin]# ls
+[0m[38;5;51mcs161-addr2line[0m  [38;5;51mcs161-c++filt[0m  [38;5;51mcs161-ld[0m       [38;5;51mcs161-objdump[0m  [38;5;51mcs161-size[0m
+[38;5;51mcs161-ar[0m         [38;5;51mcs161-cpp[0m      [38;5;51mcs161-nm[0m       [38;5;51mcs161-ranlib[0m   [38;5;51mcs161-strings[0m
+[38;5;51mcs161-as[0m         [38;5;51mcs161-gcc[0m      [38;5;51mcs161-objcopy[0m  [38;5;51mcs161-readelf[0m  [38;5;51mcs161-strip[0m
+]777;notify;Command completed;ls]0;zdebardlebon@localhost:~/cs161/bin]7;file://localhost.localdomain/root/cs161/bin[root@localhost bin]# cd asst0
+bash: cd: asst0: No such file or directory
+]777;notify;Command completed;cd asst0]0;zdebardlebon@localhost:~/cs161/bin]7;file://localhost.localdomain/root/cs161/bin[root@localhost bin]# cd cs61[K[K161
+bash: cd: cs161: No such file or directory
+]777;notify;Command completed;cd cs161]0;zdebardlebon@localhost:~/cs161/bin]7;file://localhost.localdomain/root/cs161/bin[root@localhost bin]# pd[Kq[Kwd
+/root/cs161/bin
+]777;notify;Command completed;pwd]0;zdebardlebon@localhost:~/cs161/bin]7;file://localhost.localdomain/root/cs161/bin[root@localhost bin]# cd -[K..
+]777;notify;Command completed;cd ..]0;zdebardlebon@localhost:~/cs161]7;file://localhost.localdomain/root/cs161[root@localhost cs161]# ls
+[0m[38;5;27mbin[0m  [38;5;27mcvsroot[0m  [38;5;27mroot[0m  [38;5;27mtools[0m
+]777;notify;Command completed;ls]0;zdebardlebon@localhost:~/cs161]7;file://localhost.localdomain/root/cs161[root@localhost cs161]# pwd
+/root/cs161
+]777;notify;Command completed;pwd]0;zdebardlebon@localhost:~/cs161]7;file://localhost.localdomain/root/cs161[root@localhost cs161]# pwd[1Plscd ..[2Ppwdcd cs161asst0ls[Kcd bin[4Plscd ~/cs161ls[Kcd bin[4Plscd asst0cs161[5Ppwdcd ..[3Plspwd[Kcd cvsroot
+]777;notify;Command completed;cd cvsroot]0;zdebardlebon@localhost:~/cs161/cvsroot]7;file://localhost.localdomain/root/cs161/cvsroot[root@localhost cvsroot]# ls
+[0m[38;5;27mCVSROOT[0m
+]777;notify;Command completed;ls]0;zdebardlebon@localhost:~/cs161/cvsroot]7;file://localhost.localdomain/root/cs161/cvsroot[root@localhost cvsroot]# cd ..
+]777;notify;Command completed;cd ..]0;zdebardlebon@localhost:~/cs161]7;file://localhost.localdomain/root/cs161[root@localhost cs161]# esxit[K[K[K[K[Kexit
+
+Script done on Tue 06 Feb 2018 09:02:31 PM CST
