@@ -1,0 +1,25 @@
+1. 29
+2. Lamebus
+3. sp1high sets spl to the highest value and it disables all interrupts; spl0 sets spl to 0 which enables all interupts
+4. To get a 32-bit unsigned integer
+5. The old interrupt state
+6. 15
+7. 100 times a second
+8. d_open, d_closed, d_io, d_ioctl
+9. 32
+10. 15
+11. fs_sync, fs_getvolname, fs_getroot, fs_umount
+12. thread_sleep
+13. 32 bits
+14. open, close reclaim, read, readlink, getdirentry, write, ioctl, stat, gettype, tryseek, fsync, mmap, truncate, namefile, creat, symlink, mkdir, link, remove, rmdir, rename, lookup, lookparent
+15. 1024
+16. 8
+17. kern/include/kern/unistd.h
+18. Yes. The scheduler creates the run queue, the thread bootstrap initializes the first thread
+19. If a parent did not invoke wait, then the child becomes a zombie
+20. 32
+21. 'device:' (e.g. lhd1:)
+22. The device name with raw at the end (e.g. lhd1raw:)
+23. vn_countlock
+24. Block & character devices
+
