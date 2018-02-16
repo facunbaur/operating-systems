@@ -5,11 +5,11 @@
 
 DESTDIR		=
 
-prefix 		= /root/cs161/tools
+prefix 		= /home/zdebardlebon/cs161/tools
 exec_prefix 	= ${prefix}
 
-srcdir  = /cs161/cs161-binutils-1.4/./binutils-2.14/etc
-VPATH	= /cs161/cs161-binutils-1.4/./binutils-2.14/etc
+srcdir  = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/etc
+VPATH	= /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/etc
 
 bindir  = ${exec_prefix}/bin
 libdir  = ${exec_prefix}/lib

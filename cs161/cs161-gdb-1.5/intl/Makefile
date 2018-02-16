@@ -23,10 +23,10 @@
 
 SHELL = /bin/sh
 
-srcdir = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/intl
+srcdir = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/intl
 VPATH = $(srcdir)
 
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 exec_prefix = ${prefix}
 transform = s,^,mips-elf-,; 
 libdir = ${exec_prefix}/lib
@@ -36,15 +36,15 @@ localedir = $(datadir)/locale
 aliaspath = $(localedir)
 
 AR = ar
-ACLOCAL = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing aclocal
-AUTOCONF = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing autoconf
-AUTOHEADER = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing autoheader
+ACLOCAL = /home/zdebardlebon/cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing aclocal
+AUTOCONF = /home/zdebardlebon/cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing autoconf
+AUTOHEADER = /home/zdebardlebon/cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing autoheader
 CC = gcc
 RANLIB = ranlib
 YACC = : -y -d
 YFLAGS = --name-prefix=__gettext
 CPPFLAGS = 
-CFLAGS = -g -O2
+CFLAGS = -g -O2 -Wno-error
 LDFLAGS = 
 LIBS = 
 DEFS = -DHAVE_CONFIG_H

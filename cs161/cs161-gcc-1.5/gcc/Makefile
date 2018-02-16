@@ -70,18 +70,18 @@ program_transform_name := s,^,mips-linux-,;
 # -----------------------------
 
 # Directory where sources are, from where we are.
-srcdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
-docdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
+srcdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+docdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
 
 # Directory where sources are, absolute.
-abs_srcdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
-abs_docdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
+abs_srcdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+abs_docdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/doc
 
 # Top build directory for this package, relative to here.
 top_builddir = .
 # objdir is set by configure.
 # It's normally the absolute path to the current directory.
-objdir = /cs161/cs161-gcc-1.5/gcc
+objdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc
 
 host_subdir=.
 build_subdir=build-x86_64-unknown-linux-gnu
@@ -97,7 +97,7 @@ endif
 # --------
 
 # Directory where sources are, from where we are.
-VPATH = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+VPATH = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
 
 # We define a vpath for the sources of the .texi files here because they
 # are split between multiple directories and we would rather use one implicit
@@ -227,9 +227,9 @@ T_CPPFLAGS =
 
 AWK = gawk
 CC = gcc
-BISON = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
+BISON = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
 BISONFLAGS =
-FLEX = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
+FLEX = flex
 FLEXFLAGS =
 AR = ar
 AR_FLAGS = rc
@@ -259,7 +259,7 @@ LN_S=ln -s
 INSTALL_PROGRAM = /usr/bin/install -c
 INSTALL_DATA = /usr/bin/install -c -m 644
 INSTALL_SCRIPT = /usr/bin/install -c
-MAKEINFO = /bin/sh /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../missing makeinfo
+MAKEINFO = /bin/sh /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/../missing makeinfo
 MAKEINFOFLAGS = --no-split
 TEXI2DVI = texi2dvi
 TEXI2HTML = $(MAKEINFO) --html
@@ -345,7 +345,7 @@ AR_FLAGS_FOR_TARGET =
 AR_CREATE_FOR_TARGET = $(AR_FOR_TARGET) $(AR_FLAGS_FOR_TARGET) rc
 AR_EXTRACT_FOR_TARGET = $(AR_FOR_TARGET) $(AR_FLAGS_FOR_TARGET) x
 LIPO_FOR_TARGET = lipo
-ORIGINAL_AS_FOR_TARGET = /root/cs161/tools/bin/mips-linux-as
+ORIGINAL_AS_FOR_TARGET = /home/zdebardlebon/cs161/tools/bin/mips-linux-as
 RANLIB_FOR_TARGET := $(shell \
   if [ -f $(objdir)/../binutils/ranlib ] ; then \
     echo $(objdir)/../binutils/ranlib ; \
@@ -356,8 +356,8 @@ RANLIB_FOR_TARGET := $(shell \
        t='$(program_transform_name)'; echo ranlib | sed -e $$t ; \
     fi; \
   fi)
-ORIGINAL_LD_FOR_TARGET = /root/cs161/tools/bin/mips-linux-ld
-ORIGINAL_NM_FOR_TARGET = /root/cs161/tools/bin/mips-linux-nm
+ORIGINAL_LD_FOR_TARGET = /home/zdebardlebon/cs161/tools/bin/mips-linux-ld
+ORIGINAL_NM_FOR_TARGET = /home/zdebardlebon/cs161/tools/bin/mips-linux-nm
 NM_FOR_TARGET = ./nm
 STRIP_FOR_TARGET := $(shell \
   if [ -f $(objdir)/../binutils/strip ] ; then \
@@ -441,7 +441,7 @@ host_hook_obj=host-linux.o
 
 # Common prefix for installation directories.
 # NOTE: This directory must exist when you start installation.
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 # Directory in which to put localized header files. On the systems with
 # gcc as the native cc, `local_prefix' may not be `prefix' which is
 # `/usr'.
@@ -2795,7 +2795,7 @@ GTFILES = $(srcdir)/input.h $(srcdir)/coretypes.h \
 GTFILES_FILES_LANGS =  c  c  c  c  c  c  c  c 
 GTFILES_FILES_FILES =  $(srcdir)/c-lang.c  $(srcdir)/c-tree.h  $(srcdir)/c-decl.c  $(srcdir)/c-common.c  $(srcdir)/c-common.h  $(srcdir)/c-pragma.c  $(srcdir)/c-objc-common.c  $(srcdir)/c-parser.c 
 GTFILES_LANG_DIR_NAMES = 
-GTFILES_SRCDIR = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
+GTFILES_SRCDIR = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc
 
 gt-cgraph.h gt-coverage.h gtype-desc.h gtype-desc.c gt-except.h \
 gt-function.h gt-integrate.h gt-tree.h gt-varasm.h \

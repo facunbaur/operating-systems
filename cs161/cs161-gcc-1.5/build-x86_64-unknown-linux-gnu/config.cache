@@ -196,7 +196,7 @@ ac_cv_objext=${ac_cv_objext=o}
 ac_cv_os_cray=${ac_cv_os_cray=no}
 ac_cv_prog_CC=${ac_cv_prog_CC=gcc}
 ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -E'}
-ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
+ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
 ac_cv_prog_PERL=${ac_cv_prog_PERL=perl}
 ac_cv_prog_ac_ct_AR=${ac_cv_prog_ac_ct_AR=ar}
 ac_cv_prog_ac_ct_RANLIB=${ac_cv_prog_ac_ct_RANLIB=ranlib}

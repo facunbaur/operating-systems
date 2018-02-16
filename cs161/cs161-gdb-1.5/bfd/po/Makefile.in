@@ -13,12 +13,12 @@ VERSION = 2.17.50
 SHELL = /bin/sh
 
 
-srcdir = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/po
-top_srcdir = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd
-VPATH = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/po
+srcdir = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/po
+top_srcdir = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd
+VPATH = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/po
 top_builddir = ../
 
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 exec_prefix = ${prefix}
 datadir = $(prefix)/share
 localedir = $(datadir)/locale
@@ -30,7 +30,7 @@ DESTDIR =
 
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = /usr/bin/install -c -m 644
-MKINSTALLDIRS = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../mkinstalldirs
+MKINSTALLDIRS = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../mkinstalldirs
 
 CC = gcc
 GENCAT = gencat
@@ -40,7 +40,7 @@ XGETTEXT = PATH=../src:$$PATH /usr/bin/xgettext
 MSGMERGE = PATH=../src:$$PATH msgmerge
 
 DEFS = -DHAVE_CONFIG_H
-CFLAGS = -g -O2
+CFLAGS = -g -O2 -Wno-error
 CPPFLAGS = 
 
 INCLUDES = -I.. -I$(top_srcdir)/intl

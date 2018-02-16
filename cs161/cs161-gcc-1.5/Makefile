@@ -24,7 +24,7 @@
 # -------------------------------
 # Standard Autoconf-set variables
 # -------------------------------
-VPATH=/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
+VPATH=/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
 
 build_alias=x86_64-unknown-linux-gnu
 build=x86_64-unknown-linux-gnu
@@ -35,10 +35,10 @@ target=mips-unknown-linux-gnu
 
 program_transform_name = s,^,mips-linux-,; 
 
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 exec_prefix = ${prefix}
 
-srcdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
+srcdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161
 
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -74,7 +74,7 @@ LN_S = ln -s
 # -------------------------------------------------
 
 # The gcc driver likes to know the arguments it was configured with.
-TOPLEVEL_CONFIGURE_ARGUMENTS=/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/configure --target=mips-linux --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/root/cs161/tools
+TOPLEVEL_CONFIGURE_ARGUMENTS=/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/configure --target=mips-linux --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/home/zdebardlebon/cs161/tools
 
 tooldir = ${exec_prefix}/mips-linux
 build_tooldir = ${exec_prefix}/mips-linux
@@ -91,7 +91,7 @@ BUILD_CONFIGDIRS = libiberty
 BUILD_SUBDIR = build-x86_64-unknown-linux-gnu
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the build system.
-BUILD_CONFIGARGS = --cache-file=../config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-linux --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/root/cs161/tools --enable-languages=c --program-transform-name='s,^,mips-linux-,; ' --with-build-subdir="$(BUILD_SUBDIR)"
+BUILD_CONFIGARGS = --cache-file=../config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-linux --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/home/zdebardlebon/cs161/tools --enable-languages=c --program-transform-name='s,^,mips-linux-,; ' --with-build-subdir="$(BUILD_SUBDIR)"
 
 # This is the list of variables to export in the environment when
 # configuring any subdirectory.  It must also be exported whenever
@@ -129,7 +129,7 @@ BUILD_EXPORTS = \
 SUBDIRS =  intl libiberty libcpp fixincludes gcc
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the host system.
-HOST_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-linux  --with-stabs --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/root/cs161/tools --enable-languages=c --program-transform-name='s,^,mips-linux-,; '
+HOST_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-linux  --with-stabs --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/home/zdebardlebon/cs161/tools --enable-languages=c --program-transform-name='s,^,mips-linux-,; '
 # Host programs are put under this directory, which is . except if building
 # with srcdir=..
 HOST_SUBDIR = .
@@ -183,7 +183,7 @@ TARGET_CONFIGDIRS =
 TARGET_SUBDIR = mips-linux
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the target.
-TARGET_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=mips-linux --target=mips-linux --enable-multilib --with-cross-host=x86_64-unknown-linux-gnu --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/root/cs161/tools --enable-languages=c --program-transform-name='s,^,mips-linux-,; ' --with-target-subdir="$(TARGET_SUBDIR)"
+TARGET_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=mips-linux --target=mips-linux --enable-multilib --with-cross-host=x86_64-unknown-linux-gnu --nfp --disable-shared --disable-threads --disable-libmudflap --disable-libssp --prefix=/home/zdebardlebon/cs161/tools --enable-languages=c --program-transform-name='s,^,mips-linux-,; ' --with-target-subdir="$(TARGET_SUBDIR)"
 # This is the list of variables to export in the environment when
 # configuring subdirectories for the host system.
 BASE_TARGET_EXPORTS = \
@@ -251,12 +251,12 @@ BUILD_PREFIX_1 = loser-
 # here so that they can be overridden by Makefile fragments.
 BOOT_CFLAGS= -g -O2
 
-BISON = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
-YACC = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison -y
-FLEX = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
-LEX = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex
-M4 = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing m4
-MAKEINFO = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo
+BISON = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison
+YACC = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison -y
+FLEX = flex
+LEX = flex
+M4 = m4
+MAKEINFO = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo
 EXPECT = expect
 RUNTEST = runtest
 

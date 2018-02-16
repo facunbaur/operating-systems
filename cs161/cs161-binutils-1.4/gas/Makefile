@@ -14,10 +14,10 @@
 
 SHELL = /bin/sh
 
-srcdir = /cs161/cs161-binutils-1.4/./binutils-2.14/gas
-top_srcdir = /cs161/cs161-binutils-1.4/./binutils-2.14/gas
-VPATH = /cs161/cs161-binutils-1.4/./binutils-2.14/gas
-prefix = /root/cs161/tools
+srcdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/gas
+top_srcdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/gas
+VPATH = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/gas
+prefix = /home/zdebardlebon/cs161/tools
 exec_prefix = ${prefix}
 
 bindir = ${exec_prefix}/bin
@@ -41,10 +41,10 @@ pkgincludedir = $(includedir)/gas
 
 top_builddir = .
 
-ACLOCAL = /cs161/cs161-binutils-1.4/binutils-2.14/missing aclocal
-AUTOCONF = /cs161/cs161-binutils-1.4/binutils-2.14/missing autoconf
-AUTOMAKE = /cs161/cs161-binutils-1.4/binutils-2.14/missing automake
-AUTOHEADER = /cs161/cs161-binutils-1.4/binutils-2.14/missing autoheader
+ACLOCAL = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing aclocal
+AUTOCONF = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing autoconf
+AUTOMAKE = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing automake
+AUTOHEADER = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing autoheader
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
@@ -90,7 +90,7 @@ LIBM =
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LN_S = ln -s
 MAINT = #
-MAKEINFO = /cs161/cs161-binutils-1.4/binutils-2.14/missing makeinfo
+MAKEINFO = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing makeinfo
 MKINSTALLDIRS = $(srcdir)/../../mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 OBJDUMP = @OBJDUMP@
@@ -122,7 +122,7 @@ SUBDIRS = doc po
 tooldir = $(exec_prefix)/$(target_alias)
 
 YACC = `if [ -f ../bison/bison ] ; then echo ../bison/bison -y -L../bison/bison ; else echo yacc ; fi`
-LEX = `if [ -f ../flex/flex ] ; then echo ../flex/flex ; else echo /cs161/cs161-binutils-1.4/binutils-2.14/missing flex ; fi`
+LEX = `if [ -f ../flex/flex ] ; then echo ../flex/flex ; else echo flex ; fi`
 
 WARN_CFLAGS = -W -Wall -Wstrict-prototypes -Wmissing-prototypes
 AM_CFLAGS = $(WARN_CFLAGS)

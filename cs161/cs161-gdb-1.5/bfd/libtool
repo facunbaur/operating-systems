@@ -40,14 +40,14 @@ available_tags=
 # Libtool was configured as follows, on host localhost.localdomain:
 #
 # AR="ar" AR_FLAGS="rc" LTCC="gcc" CC="gcc" \
-# CFLAGS="-g -O2" CPPFLAGS="" \
+# CFLAGS="-g -O2 -Wno-error" CPPFLAGS="" \
 # MAGIC_CMD="" LD="ld -m elf_x86_64" LDFLAGS="" LIBS="" \
 # LN_S="ln -s" NM="nm" RANLIB="ranlib" STRIP="strip" \
 # AS="as" DLLTOOL="dlltool" OBJDUMP="objdump" \
 # objext="" exeext="" reload_flag=" -r" \
 # deplibs_check_method="pass_all" \
 # file_magic_cmd="\$MAGIC_CMD" \
-#   /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../ltconfig --cache-file=./config.cache --disable-shared --with-gcc --with-gnu-ld --no-verify --build=x86_64-unknown-linux-gnu /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../ltmain.sh x86_64-unknown-linux-gnu
+#   /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../ltconfig --cache-file=./config.cache --disable-shared --with-gcc --with-gnu-ld --no-verify --build=x86_64-unknown-linux-gnu /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/bfd/../ltmain.sh x86_64-unknown-linux-gnu
 #
 # Compiler and other test output produced by ltconfig, useful for
 # debugging ltconfig, is in ./config.log if it exists.

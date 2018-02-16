@@ -29,7 +29,7 @@
 static const char *
 output_0 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 603 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 603 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (ISA_HAS_COND_TRAP)
     return "teq\t$0,$0";
@@ -70,7 +70,7 @@ static const char * const output_14[] = {
 static const char *
 output_27 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1029 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1029 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (which_alternative == 1)
     return "mult\t%1,%2";
@@ -90,7 +90,7 @@ output_27 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_33 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1159 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1159 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   static const char *const madd[] = { "madd\t%1,%2", "madd\t%0,%1,%2" };
   if (which_alternative == 2)
@@ -104,7 +104,7 @@ output_33 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_34 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1219 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1219 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (which_alternative == 1)
     return "macc\t%0,%1,%2";
@@ -121,7 +121,7 @@ output_34 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_35 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1241 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1241 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (which_alternative == 1)
     return "msac\t%0,%2,%3";
@@ -146,7 +146,7 @@ static const char * const output_40[] = {
 static const char *
 output_51 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1605 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1605 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_MIPS5500)
     return "msub\t%1,%2";
@@ -158,7 +158,7 @@ output_51 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_52 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1605 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1605 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_MIPS5500)
     return "msubu\t%1,%2";
@@ -190,7 +190,7 @@ static const char * const output_58[] = {
 static const char *
 output_62 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1723 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1723 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_MAD)
     return "mad\t%1,%2";
@@ -205,7 +205,7 @@ output_62 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_63 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1723 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1723 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_MAD)
     return "madu\t%1,%2";
@@ -220,7 +220,7 @@ output_63 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_82 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1841 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1841 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "div.s\t%0,%1,%2\n\tmov.s\t%0,%0";
@@ -232,7 +232,7 @@ output_82 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_83 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1841 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1841 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "div.d\t%0,%1,%2\n\tmov.d\t%0,%0";
@@ -244,7 +244,7 @@ output_83 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_84 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1841 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1841 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "div.ps\t%0,%1,%2\n\tmov.ps\t%0,%0";
@@ -256,7 +256,7 @@ output_84 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_85 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1859 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1859 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "recip.s\t%0,%2\n\tmov.s\t%0,%0";
@@ -268,7 +268,7 @@ output_85 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_86 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1859 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1859 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "recip.d\t%0,%2\n\tmov.d\t%0,%0";
@@ -280,7 +280,7 @@ output_86 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_87 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1859 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1859 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "recip.ps\t%0,%2\n\tmov.ps\t%0,%0";
@@ -292,35 +292,35 @@ output_87 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_88 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1882 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1882 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_division ("div\t$0,%1,%2", operands); }
 }
 
 static const char *
 output_89 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1882 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1882 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_division ("ddiv\t$0,%1,%2", operands); }
 }
 
 static const char *
 output_90 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1894 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1894 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_division ("divu\t$0,%1,%2", operands); }
 }
 
 static const char *
 output_91 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1894 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1894 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_division ("ddivu\t$0,%1,%2", operands); }
 }
 
 static const char *
 output_92 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1912 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1912 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "sqrt.s\t%0,%1\n\tmov.s\t%0,%0";
@@ -332,7 +332,7 @@ output_92 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_93 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1912 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1912 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "sqrt.d\t%0,%1\n\tmov.d\t%0,%0";
@@ -344,7 +344,7 @@ output_93 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_94 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1912 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1912 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "sqrt.ps\t%0,%1\n\tmov.ps\t%0,%0";
@@ -356,7 +356,7 @@ output_94 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_95 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1930 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1930 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "rsqrt.s\t%0,%2\n\tmov.s\t%0,%0";
@@ -368,7 +368,7 @@ output_95 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_96 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1930 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1930 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "rsqrt.d\t%0,%2\n\tmov.d\t%0,%0";
@@ -380,7 +380,7 @@ output_96 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_97 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1930 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1930 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "rsqrt.ps\t%0,%2\n\tmov.ps\t%0,%0";
@@ -392,7 +392,7 @@ output_97 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_98 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1948 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1948 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "rsqrt.s\t%0,%2\n\tmov.s\t%0,%0";
@@ -404,7 +404,7 @@ output_98 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_99 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1948 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1948 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "rsqrt.d\t%0,%2\n\tmov.d\t%0,%0";
@@ -416,7 +416,7 @@ output_99 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_100 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 1948 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 1948 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_FIX_SB1)
     return "rsqrt.ps\t%0,%2\n\tmov.ps\t%0,%0";
@@ -428,7 +428,7 @@ output_100 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_106 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 2006 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2006 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_MIPS16)
     return "neg\t%0,%1";
@@ -440,7 +440,7 @@ output_106 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_111 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 2035 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2035 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_MIPS16)
     return "not\t%0,%1";
@@ -452,7 +452,7 @@ output_111 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_112 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 2035 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2035 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (TARGET_MIPS16)
     return "not\t%0,%1";
@@ -616,7 +616,7 @@ static const char * const output_165[] = {
 static const char *
 output_169 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 2546 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2546 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (set_nomacro)
     return ".set\tmacro\n\ttrunc.w.d %0,%1,%2\n\t.set\tnomacro";
@@ -628,7 +628,7 @@ output_169 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_171 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 2584 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 2584 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (set_nomacro)
     return ".set\tmacro\n\ttrunc.w.s %0,%1,%2\n\t.set\tnomacro";
@@ -640,49 +640,49 @@ output_171 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_208 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3203 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3203 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_209 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3214 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3214 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_210 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3225 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3225 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_211 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3236 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3236 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_212 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3321 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3321 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_213 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3332 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3332 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_214 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3422 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3422 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
@@ -731,63 +731,63 @@ static const char * const output_230[] = {
 static const char *
 output_231 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3699 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3699 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_232 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3710 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3710 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_233 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3721 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3721 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_234 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3744 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3744 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_235 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3755 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3755 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_236 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3766 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3766 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_237 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3777 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3777 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_238 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3837 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3837 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return mips_output_move (operands[0], operands[1]); }
 }
 
 static const char *
 output_241 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3875 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3875 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (REGNO (operands[1]) == HI_REGNUM)
     return "macchi\t%0,%.,%.";
@@ -799,7 +799,7 @@ output_241 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_242 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3875 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3875 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (REGNO (operands[1]) == HI_REGNUM)
     return "dmacchi\t%0,%.,%.";
@@ -811,7 +811,7 @@ output_242 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_243 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3894 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3894 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[0] = mips_subword (operands[0], 0);
   return mips_output_move (operands[0], operands[1]);
@@ -821,7 +821,7 @@ output_243 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_244 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3909 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3909 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[0] = mips_subword (operands[0], 1);
   return mips_output_move (operands[0], operands[1]);
@@ -831,7 +831,7 @@ output_244 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_245 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3923 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3923 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[1] = mips_subword (operands[1], 1);
   return mips_output_move (operands[0], operands[1]);
@@ -841,7 +841,7 @@ output_245 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_248 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 3969 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 3969 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (set_nomacro && which_alternative == 1)
     return ".set\tmacro\n\t.cprestore\t%0\n\t.set\tnomacro";
@@ -853,7 +853,7 @@ output_248 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_249 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4039 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4039 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2])
@@ -866,7 +866,7 @@ output_249 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_250 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4039 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4039 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2])
@@ -879,7 +879,7 @@ output_250 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_251 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4039 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4039 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2])
@@ -892,7 +892,7 @@ output_251 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_252 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4039 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4039 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2])
@@ -905,7 +905,7 @@ output_252 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_253 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4039 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4039 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2])
@@ -918,7 +918,7 @@ output_253 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_254 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4039 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4039 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2])
@@ -931,7 +931,7 @@ output_254 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_255 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4055 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4055 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2]) & 0x1f);
@@ -943,7 +943,7 @@ output_255 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_256 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4055 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4055 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2]) & 0x1f);
@@ -955,7 +955,7 @@ output_256 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_257 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4055 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4055 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2]) & 0x1f);
@@ -967,7 +967,7 @@ output_257 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_258 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4069 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4069 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (which_alternative == 0)
     return "sll\t%0,%2";
@@ -980,7 +980,7 @@ output_258 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_259 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4069 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4069 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (which_alternative == 0)
     return "sra\t%0,%2";
@@ -993,7 +993,7 @@ output_259 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_260 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4069 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4069 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (which_alternative == 0)
     return "srl\t%0,%2";
@@ -1006,7 +1006,7 @@ output_260 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_261 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4091 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4091 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (which_alternative == 0)
     return "dsll\t%0,%2";
@@ -1019,7 +1019,7 @@ output_261 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_262 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4111 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4111 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2]) & 0x3f);
@@ -1031,7 +1031,7 @@ output_262 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_263 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4130 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4130 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     operands[2] = GEN_INT (INTVAL (operands[2]) & 0x3f);
@@ -1043,7 +1043,7 @@ output_263 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_265 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4186 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4186 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     gcc_assert (INTVAL (operands[2]) >= 0
@@ -1056,7 +1056,7 @@ output_265 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_266 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4186 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4186 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (GET_CODE (operands[2]) == CONST_INT)
     gcc_assert (INTVAL (operands[2]) >= 0
@@ -1069,7 +1069,7 @@ output_266 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_267 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4258 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4258 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1083,7 +1083,7 @@ output_267 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_268 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4278 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4278 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1097,7 +1097,7 @@ output_268 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_269 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4300 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4300 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1111,7 +1111,7 @@ output_269 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_270 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4300 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4300 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1125,7 +1125,7 @@ output_270 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_271 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4320 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4320 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1139,7 +1139,7 @@ output_271 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_272 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4320 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4320 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1153,7 +1153,7 @@ output_272 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_273 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4342 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4342 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1167,7 +1167,7 @@ output_273 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_274 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4342 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4342 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1181,7 +1181,7 @@ output_274 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_275 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4362 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4362 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1195,7 +1195,7 @@ output_275 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_276 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4362 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4362 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   return mips_output_conditional_branch (insn,
 					 operands,
@@ -1209,7 +1209,7 @@ output_276 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_277 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4384 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4384 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (operands[2] != pc_rtx)
     {
@@ -1231,7 +1231,7 @@ output_277 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_278 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4384 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4384 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (operands[2] != pc_rtx)
     {
@@ -1253,7 +1253,7 @@ output_278 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_295 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4550 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4550 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "slt\t%0,%1,%2";
@@ -1263,7 +1263,7 @@ output_295 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_296 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4550 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4550 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "slt\t%0,%1,%2";
@@ -1273,7 +1273,7 @@ output_296 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_297 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4562 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4562 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "slt\t%1,%2";
@@ -1283,7 +1283,7 @@ output_297 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_298 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4562 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4562 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "slt\t%1,%2";
@@ -1293,7 +1293,7 @@ output_298 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_309 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4655 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4655 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "sltu\t%0,%1,%2";
@@ -1303,7 +1303,7 @@ output_309 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_310 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4655 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4655 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "sltu\t%0,%1,%2";
@@ -1313,7 +1313,7 @@ output_310 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_311 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4667 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4667 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "sltu\t%1,%2";
@@ -1323,7 +1323,7 @@ output_311 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_312 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4667 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4667 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = GEN_INT (INTVAL (operands[2]) + 1);
   return "sltu\t%1,%2";
@@ -1333,7 +1333,7 @@ output_312 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_335 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 4715 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 4715 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   if (flag_pic)
     {
@@ -1368,28 +1368,28 @@ static const char * const output_351[] = {
 static const char *
 output_352 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5126 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5126 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return TARGET_SPLIT_CALLS ? "#" : "%*jal\t%0%/"; }
 }
 
 static const char *
 output_354 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5166 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5166 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return TARGET_SPLIT_CALLS ? "#" : "%*jal\t%1%/"; }
 }
 
 static const char *
 output_356 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5199 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5199 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 { return TARGET_SPLIT_CALLS ? "#" : "%*jal\t%1%/"; }
 }
 
 static const char *
 output_358 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5262 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5262 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[1] = mips_prefetch_cookie (operands[1], operands[2]);
   return "pref\t%1,%a0";
@@ -1399,7 +1399,7 @@ output_358 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_359 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5274 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5274 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = mips_prefetch_cookie (operands[2], operands[3]);
   return "prefx\t%2,%1(%0)";
@@ -1409,7 +1409,7 @@ output_359 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_360 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5274 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5274 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   operands[2] = mips_prefetch_cookie (operands[2], operands[3]);
   return "prefx\t%2,%1(%0)";
@@ -1419,7 +1419,7 @@ output_360 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_362 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5291 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5291 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
     if (set_noreorder)
       return "nop";
@@ -1491,7 +1491,7 @@ static const char * const output_374[] = {
 static const char *
 output_375 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5370 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5370 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   assemble_integer (operands[0], INTVAL (operands[1]),
 		    BITS_PER_UNIT * INTVAL (operands[1]), 1);
@@ -1502,7 +1502,7 @@ output_375 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_376 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 5381 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
+#line 5381 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md"
 {
   REAL_VALUE_TYPE d;
 
@@ -1532,7 +1532,7 @@ static const char * const output_380[] = {
 static const char *
 output_385 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 143 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 143 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 {
   if (BYTES_BIG_ENDIAN)
     return "cvt.ps.s\t%0,%1,%2";
@@ -1544,7 +1544,7 @@ output_385 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_386 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 162 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
+#line 162 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md"
 {
   if (INTVAL (operands[2]) == !BYTES_BIG_ENDIAN)
     return "cvt.s.pu\t%0,%1";
@@ -1556,7 +1556,7 @@ output_386 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_444 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 306 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 306 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1572,7 +1572,7 @@ output_444 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_445 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 306 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 306 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1588,7 +1588,7 @@ output_445 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_446 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 328 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 328 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1604,7 +1604,7 @@ output_446 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_447 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 328 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 328 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1620,7 +1620,7 @@ output_447 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_448 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 348 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 348 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1635,7 +1635,7 @@ output_448 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_449 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 367 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 367 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1650,7 +1650,7 @@ output_449 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_450 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 385 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 385 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1666,7 +1666,7 @@ output_450 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_451 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 385 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 385 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1682,7 +1682,7 @@ output_451 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_472 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 690 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 690 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1702,7 +1702,7 @@ static const char * const output_473[] = {
 static const char *
 output_486 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 812 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 812 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1717,7 +1717,7 @@ output_486 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_487 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 833 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 833 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1732,7 +1732,7 @@ output_487 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_488 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 854 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 854 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1747,7 +1747,7 @@ output_488 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_489 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 876 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 876 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1762,7 +1762,7 @@ output_489 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_490 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 899 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 899 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1777,7 +1777,7 @@ output_490 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_491 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 924 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 924 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -1792,7 +1792,7 @@ output_491 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 static const char *
 output_492 (rtx *operands ATTRIBUTE_UNUSED, rtx insn ATTRIBUTE_UNUSED)
 {
-#line 943 "/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
+#line 943 "/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md"
 {
   if (which_alternative == 0)
     {
@@ -8649,7 +8649,7 @@ __extension__
 
 const struct insn_data insn_data[] = 
 {
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:600 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:600 */
   {
     "trap",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8664,7 +8664,7 @@ const struct insn_data insn_data[] =
     0,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:629 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:629 */
   {
     "*conditional_trapsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8685,7 +8685,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:629 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:629 */
   {
     "*conditional_trapdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8706,7 +8706,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:646 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:646 */
   {
     "addsf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8727,7 +8727,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:646 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:646 */
   {
     "adddf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8748,7 +8748,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:646 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:646 */
   {
     "addv2sf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8769,7 +8769,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:661 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:661 */
   {
     "*addsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8784,7 +8784,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:661 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:661 */
   {
     "*adddi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8799,7 +8799,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:676 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:676 */
   {
     "*addsi3_sp1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8820,7 +8820,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:676 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:676 */
   {
     "*adddi3_sp1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8841,7 +8841,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:688 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:688 */
   {
     "*addsi3_sp2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8862,7 +8862,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:688 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:688 */
   {
     "*adddi3_sp2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8883,7 +8883,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:700 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:700 */
   {
     "*addsi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8898,7 +8898,7 @@ const struct insn_data insn_data[] =
     3,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:700 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:700 */
   {
     "*adddi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8913,7 +8913,7 @@ const struct insn_data insn_data[] =
     3,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:849 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:849 */
   {
     "*addsi3_extended",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8928,7 +8928,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:863 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:863 */
   {
     "*addsi3_extended_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8949,7 +8949,7 @@ const struct insn_data insn_data[] =
     3,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:885 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:885 */
   {
     "subsf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8970,7 +8970,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:885 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:885 */
   {
     "subdf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -8991,7 +8991,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:885 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:885 */
   {
     "subv2sf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9012,7 +9012,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:894 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:894 */
   {
     "subsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9033,7 +9033,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:894 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:894 */
   {
     "subdi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9054,7 +9054,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:903 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:903 */
   {
     "*subsi3_extended",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9075,7 +9075,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:928 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:928 */
   {
     "*mulsf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9096,7 +9096,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:928 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:928 */
   {
     "*muldf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9117,7 +9117,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:941 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:941 */
   {
     "*mulsf3_r4300",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9138,7 +9138,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:941 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:941 */
   {
     "*muldf3_r4300",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9159,7 +9159,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:951 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:951 */
   {
     "mulv2sf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9180,7 +9180,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1022 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1022 */
   {
     "mulsi3_mult3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9195,7 +9195,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1046 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1046 */
   {
     "muldi3_mult3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9216,7 +9216,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1083 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1083 */
   {
     "mulsi3_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9237,7 +9237,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1083 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1083 */
   {
     "muldi3_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9258,7 +9258,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1093 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1093 */
   {
     "mulsi3_r4000",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9279,7 +9279,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1093 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1093 */
   {
     "muldi3_r4000",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9300,7 +9300,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1148 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1148 */
   {
     "*mul_acc_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9315,7 +9315,7 @@ const struct insn_data insn_data[] =
     3,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1211 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1211 */
   {
     "*macc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9330,7 +9330,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1233 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1233 */
   {
     "*msac",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9345,7 +9345,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1253 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1253 */
   {
     "*msac_using_macc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9366,7 +9366,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1279 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1279 */
   {
     "*macc2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9387,7 +9387,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1294 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1294 */
   {
     "*msac2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9408,7 +9408,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1409 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1409 */
   {
     "*mul_sub_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9423,7 +9423,7 @@ const struct insn_data insn_data[] =
     3,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1466 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1466 */
   {
     "*muls",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9438,7 +9438,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1503 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1503 */
   {
     "mulsidi3_32bit_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9459,7 +9459,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1503 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1503 */
   {
     "umulsidi3_32bit_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9480,7 +9480,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1512 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1512 */
   {
     "mulsidi3_32bit_r4000",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9501,7 +9501,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1512 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1512 */
   {
     "umulsidi3_32bit_r4000",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9522,7 +9522,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
   {
     "*mulsidi3_64bit",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9543,7 +9543,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
   {
     "*umulsidi3_64bit",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9564,7 +9564,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1570 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1570 */
   {
     "*mulsidi3_64bit_parts",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9585,7 +9585,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1570 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1570 */
   {
     "*umulsidi3_64bit_parts",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9606,7 +9606,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1586 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1586 */
   {
     "*muls_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9627,7 +9627,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1586 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1586 */
   {
     "*mulsu_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9648,7 +9648,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1597 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1597 */
   {
     "*msac_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9663,7 +9663,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1597 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1597 */
   {
     "*msacu_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9678,7 +9678,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1635 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1635 */
   {
     "smulsi3_highpart_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9699,7 +9699,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1635 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1635 */
   {
     "umulsi3_highpart_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9720,7 +9720,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1648 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1648 */
   {
     "smulsi3_highpart_mulhi_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9735,7 +9735,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1648 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1648 */
   {
     "umulsi3_highpart_mulhi_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9750,7 +9750,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1665 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1665 */
   {
     "*smulsi3_highpart_neg_mulhi_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9765,7 +9765,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1665 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1665 */
   {
     "*umulsi3_highpart_neg_mulhi_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9780,7 +9780,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1686 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1686 */
   {
     "smuldi3_highpart",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9801,7 +9801,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1686 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1686 */
   {
     "umuldi3_highpart",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9822,7 +9822,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1704 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1704 */
   {
     "madsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9843,7 +9843,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1715 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1715 */
   {
     "*smul_acc_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9858,7 +9858,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1715 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1715 */
   {
     "*umul_acc_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9873,7 +9873,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1737 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1737 */
   {
     "*maddsf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9894,7 +9894,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1737 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1737 */
   {
     "*madddf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9915,7 +9915,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1737 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1737 */
   {
     "*maddv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9936,7 +9936,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1747 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1747 */
   {
     "*msubsf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9957,7 +9957,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1747 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1747 */
   {
     "*msubdf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9978,7 +9978,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1747 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1747 */
   {
     "*msubv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -9999,7 +9999,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1757 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1757 */
   {
     "*nmaddsf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10020,7 +10020,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1757 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1757 */
   {
     "*nmadddf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10041,7 +10041,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1757 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1757 */
   {
     "*nmaddv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10062,7 +10062,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1769 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1769 */
   {
     "*nmaddsf_fastmath",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10083,7 +10083,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1769 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1769 */
   {
     "*nmadddf_fastmath",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10104,7 +10104,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1769 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1769 */
   {
     "*nmaddv2sf_fastmath",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10125,7 +10125,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1781 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1781 */
   {
     "*nmsubsf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10146,7 +10146,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1781 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1781 */
   {
     "*nmsubdf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10167,7 +10167,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1781 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1781 */
   {
     "*nmsubv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10188,7 +10188,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1793 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1793 */
   {
     "*nmsubsf_fastmath",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10209,7 +10209,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1793 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1793 */
   {
     "*nmsubdf_fastmath",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10230,7 +10230,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1793 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1793 */
   {
     "*nmsubv2sf_fastmath",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10251,7 +10251,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1836 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1836 */
   {
     "*divsf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10266,7 +10266,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1836 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1836 */
   {
     "*divdf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10281,7 +10281,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1836 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1836 */
   {
     "*divv2sf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10296,7 +10296,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1854 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1854 */
   {
     "*recipsf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10311,7 +10311,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1854 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1854 */
   {
     "*recipdf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10326,7 +10326,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1854 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1854 */
   {
     "*recipv2sf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10341,7 +10341,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1874 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1874 */
   {
     "divmodsi4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10356,7 +10356,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1874 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1874 */
   {
     "divmoddi4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10371,7 +10371,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1886 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1886 */
   {
     "udivmodsi4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10386,7 +10386,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1886 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1886 */
   {
     "udivmoddi4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10401,7 +10401,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1908 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1908 */
   {
     "sqrtsf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10416,7 +10416,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1908 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1908 */
   {
     "sqrtdf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10431,7 +10431,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1908 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1908 */
   {
     "sqrtv2sf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10446,7 +10446,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1925 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1925 */
   {
     "*rsqrtsfa",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10461,7 +10461,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1925 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1925 */
   {
     "*rsqrtdfa",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10476,7 +10476,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1925 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1925 */
   {
     "*rsqrtv2sfa",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10491,7 +10491,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1943 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1943 */
   {
     "*rsqrtsfb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10506,7 +10506,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1943 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1943 */
   {
     "*rsqrtdfb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10521,7 +10521,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1943 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1943 */
   {
     "*rsqrtv2sfb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10536,7 +10536,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1971 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1971 */
   {
     "abssf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10557,7 +10557,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1971 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1971 */
   {
     "absdf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10578,7 +10578,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1971 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1971 */
   {
     "absv2sf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10599,7 +10599,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1987 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1987 */
   {
     "clzsi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10620,7 +10620,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1987 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1987 */
   {
     "clzdi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10641,7 +10641,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2002 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2002 */
   {
     "negsi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10656,7 +10656,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2015 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2015 */
   {
     "negdi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10677,7 +10677,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2023 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2023 */
   {
     "negsf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10698,7 +10698,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2023 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2023 */
   {
     "negdf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10719,7 +10719,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2023 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2023 */
   {
     "negv2sf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10740,7 +10740,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2031 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2031 */
   {
     "one_cmplsi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10755,7 +10755,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2031 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2031 */
   {
     "one_cmpldi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10770,7 +10770,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2065 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2065 */
   {
     "*andsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10785,7 +10785,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2065 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2065 */
   {
     "*anddi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10800,7 +10800,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2076 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2076 */
   {
     "*andsi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10821,7 +10821,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2076 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2076 */
   {
     "*anddi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10842,7 +10842,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2095 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2095 */
   {
     "*iorsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10857,7 +10857,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2095 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2095 */
   {
     "*iordi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10872,7 +10872,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2106 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2106 */
   {
     "*iorsi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10893,7 +10893,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2106 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2106 */
   {
     "*iordi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10914,7 +10914,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2122 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2122 */
   {
     "*mips.md:2122",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10929,7 +10929,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2122 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2122 */
   {
     "*mips.md:2122",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10944,7 +10944,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2133 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2133 */
   {
     "*mips.md:2133",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10959,7 +10959,7 @@ const struct insn_data insn_data[] =
     3,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2133 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2133 */
   {
     "*mips.md:2133",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10974,7 +10974,7 @@ const struct insn_data insn_data[] =
     3,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2151 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2151 */
   {
     "*norsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -10995,7 +10995,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2151 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2151 */
   {
     "*nordi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11016,7 +11016,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2169 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2169 */
   {
     "truncdfsf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11037,7 +11037,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2191 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2191 */
   {
     "truncdisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11052,7 +11052,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2202 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2202 */
   {
     "truncdihi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11067,7 +11067,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2213 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2213 */
   {
     "truncdiqi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11082,7 +11082,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2226 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2226 */
   {
     "*mips.md:2226",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11103,7 +11103,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2236 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2236 */
   {
     "*mips.md:2236",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11124,7 +11124,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2249 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2249 */
   {
     "*mips.md:2249",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11145,7 +11145,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2264 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2264 */
   {
     "*mips.md:2264",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11166,7 +11166,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2282 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2282 */
   {
     "*mips.md:2282",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11187,7 +11187,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2291 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2291 */
   {
     "*mips.md:2291",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11208,7 +11208,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2300 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2300 */
   {
     "*mips.md:2300",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11229,7 +11229,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2318 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2318 */
   {
     "zero_extendsidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11244,7 +11244,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
   {
     "*zero_extendqisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11259,7 +11259,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
   {
     "*zero_extendqidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11274,7 +11274,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
   {
     "*zero_extendhisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11289,7 +11289,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2351 */
   {
     "*zero_extendhidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11304,7 +11304,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
   {
     "*zero_extendqisi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11325,7 +11325,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
   {
     "*zero_extendqidi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11346,7 +11346,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
   {
     "*zero_extendhisi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11367,7 +11367,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2362 */
   {
     "*zero_extendhidi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11388,7 +11388,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
   {
     "*zero_extendqisi2_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11409,7 +11409,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
   {
     "*zero_extendqidi2_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11430,7 +11430,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
   {
     "*zero_extendhisi2_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11451,7 +11451,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2370 */
   {
     "*zero_extendhidi2_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11472,7 +11472,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2391 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2391 */
   {
     "*zero_extendqihi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11487,7 +11487,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2401 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2401 */
   {
     "*zero_extendqihi2_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11508,7 +11508,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2427 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2427 */
   {
     "extendsidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11523,7 +11523,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
   {
     "*extendqisi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11538,7 +11538,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
   {
     "*extendqidi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11553,7 +11553,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
   {
     "*extendhisi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11568,7 +11568,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2448 */
   {
     "*extendhidi2_mips16e",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11583,7 +11583,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "*extendqisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11598,7 +11598,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "*extendqidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11613,7 +11613,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "*extendhisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11628,7 +11628,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "*extendhidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11643,7 +11643,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
   {
     "*extendqisi2_seb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11658,7 +11658,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
   {
     "*extendqidi2_seb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11673,7 +11673,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
   {
     "*extendhisi2_seh",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11688,7 +11688,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2478 */
   {
     "*extendhidi2_seh",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11703,7 +11703,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2491 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2491 */
   {
     "extendqihi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11724,7 +11724,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2503 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2503 */
   {
     "extendsfdf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11745,7 +11745,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2531 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2531 */
   {
     "fix_truncdfsi2_insn",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11766,7 +11766,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2541 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2541 */
   {
     "fix_truncdfsi2_macro",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11781,7 +11781,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2569 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2569 */
   {
     "fix_truncsfsi2_insn",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11802,7 +11802,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2579 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2579 */
   {
     "fix_truncsfsi2_macro",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11817,7 +11817,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2596 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2596 */
   {
     "fix_truncdfdi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11838,7 +11838,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2607 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2607 */
   {
     "fix_truncsfdi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11859,7 +11859,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2618 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2618 */
   {
     "floatsidf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11880,7 +11880,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2629 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2629 */
   {
     "floatdidf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11901,7 +11901,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2640 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2640 */
   {
     "floatsisf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11922,7 +11922,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2651 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2651 */
   {
     "floatdisf2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11943,7 +11943,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2881 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2881 */
   {
     "extzvsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11964,7 +11964,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2881 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2881 */
   {
     "extzvdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -11985,7 +11985,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2917 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2917 */
   {
     "insvsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12006,7 +12006,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2917 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2917 */
   {
     "insvdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12027,7 +12027,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2939 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2939 */
   {
     "mov_lwl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12048,7 +12048,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2939 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2939 */
   {
     "mov_ldl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12069,7 +12069,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2949 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2949 */
   {
     "mov_lwr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12090,7 +12090,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2949 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2949 */
   {
     "mov_ldr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12111,7 +12111,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2960 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2960 */
   {
     "mov_swl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12132,7 +12132,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2960 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2960 */
   {
     "mov_sdl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12153,7 +12153,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2970 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2970 */
   {
     "mov_swr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12174,7 +12174,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2970 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2970 */
   {
     "mov_sdr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12195,7 +12195,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2996 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2996 */
   {
     "*lea_high64",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12216,7 +12216,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3049 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3049 */
   {
     "*lea64",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12237,7 +12237,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
   {
     "*xgot_hisi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12258,7 +12258,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
   {
     "*xgot_hidi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12279,7 +12279,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
   {
     "*xgot_losi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12300,7 +12300,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
   {
     "*xgot_lodi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12321,7 +12321,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
   {
     "*got_dispsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12342,7 +12342,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
   {
     "*got_dispdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12363,7 +12363,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
   {
     "*got_pagesi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12384,7 +12384,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
   {
     "*got_pagedi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12405,7 +12405,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3136 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3136 */
   {
     "load_gotsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12426,7 +12426,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3136 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3136 */
   {
     "load_gotdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12447,7 +12447,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3151 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3151 */
   {
     "*lowsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12468,7 +12468,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3151 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3151 */
   {
     "*lowdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12489,7 +12489,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3160 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3160 */
   {
     "*lowsi_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12510,7 +12510,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3160 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3160 */
   {
     "*lowdi_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12531,7 +12531,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3189 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3189 */
   {
     "*movsi_ra",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12552,7 +12552,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3189 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3189 */
   {
     "*movdi_ra",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12573,7 +12573,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3197 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3197 */
   {
     "*movdi_32bit",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12588,7 +12588,7 @@ const struct insn_data insn_data[] =
     10,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3208 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3208 */
   {
     "*movdi_32bit_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12603,7 +12603,7 @@ const struct insn_data insn_data[] =
     8,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3219 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3219 */
   {
     "*movdi_64bit",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12618,7 +12618,7 @@ const struct insn_data insn_data[] =
     15,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3230 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3230 */
   {
     "*movdi_64bit_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12633,7 +12633,7 @@ const struct insn_data insn_data[] =
     8,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3315 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3315 */
   {
     "*movsi_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12648,7 +12648,7 @@ const struct insn_data insn_data[] =
     18,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3326 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3326 */
   {
     "*movsi_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12663,7 +12663,7 @@ const struct insn_data insn_data[] =
     8,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3418 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3418 */
   {
     "movcc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12678,7 +12678,7 @@ const struct insn_data insn_data[] =
     9,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
   {
     "*lwxc1_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12699,7 +12699,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
   {
     "*ldxc1_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12720,7 +12720,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
   {
     "*ldxc1_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12741,7 +12741,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
   {
     "*lwxc1_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12762,7 +12762,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
   {
     "*ldxc1_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12783,7 +12783,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3474 */
   {
     "*ldxc1_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12804,7 +12804,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
   {
     "*swxc1_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12825,7 +12825,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
   {
     "*sdxc1_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12846,7 +12846,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
   {
     "*sdxc1_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12867,7 +12867,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
   {
     "*swxc1_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12888,7 +12888,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
   {
     "*sdxc1_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12909,7 +12909,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3483 */
   {
     "*sdxc1_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12930,7 +12930,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3508 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3508 */
   {
     "*movhi_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12945,7 +12945,7 @@ const struct insn_data insn_data[] =
     8,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3527 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3527 */
   {
     "*movhi_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12960,7 +12960,7 @@ const struct insn_data insn_data[] =
     7,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3615 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3615 */
   {
     "*movqi_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12975,7 +12975,7 @@ const struct insn_data insn_data[] =
     8,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3634 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3634 */
   {
     "*movqi_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -12990,7 +12990,7 @@ const struct insn_data insn_data[] =
     7,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3693 */
   {
     "*movsf_hardfloat",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13005,7 +13005,7 @@ const struct insn_data insn_data[] =
     10,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3704 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3704 */
   {
     "*movsf_softfloat",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13020,7 +13020,7 @@ const struct insn_data insn_data[] =
     3,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3715 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3715 */
   {
     "*movsf_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13035,7 +13035,7 @@ const struct insn_data insn_data[] =
     5,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3738 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3738 */
   {
     "*movdf_hardfloat_64bit",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13050,7 +13050,7 @@ const struct insn_data insn_data[] =
     10,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3749 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3749 */
   {
     "*movdf_hardfloat_32bit",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13065,7 +13065,7 @@ const struct insn_data insn_data[] =
     10,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3760 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3760 */
   {
     "*movdf_softfloat",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13080,7 +13080,7 @@ const struct insn_data insn_data[] =
     6,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3771 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3771 */
   {
     "*movdf_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13095,7 +13095,7 @@ const struct insn_data insn_data[] =
     5,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3830 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3830 */
   {
     "movv2sf_hardfloat_64bit",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13110,7 +13110,7 @@ const struct insn_data insn_data[] =
     10,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3859 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3859 */
   {
     "*mfhilo_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13131,7 +13131,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3859 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3859 */
   {
     "*mfhilo_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13152,7 +13152,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3869 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3869 */
   {
     "*mfhilo_si_macc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13167,7 +13167,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3869 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3869 */
   {
     "*mfhilo_di_macc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13182,7 +13182,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3889 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3889 */
   {
     "load_df_low",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13197,7 +13197,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3903 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3903 */
   {
     "load_df_high",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13212,7 +13212,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3918 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3918 */
   {
     "store_df_high",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13227,7 +13227,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3933 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3933 */
   {
     "loadgp",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13248,7 +13248,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3954 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3954 */
   {
     "loadgp_blockage",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13269,7 +13269,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3965 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3965 */
   {
     "cprestore",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13284,7 +13284,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
   {
     "*ashlsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13299,7 +13299,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
   {
     "*ashrsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13314,7 +13314,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
   {
     "*lshrsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13329,7 +13329,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
   {
     "*ashldi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13344,7 +13344,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
   {
     "*ashrdi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13359,7 +13359,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4034 */
   {
     "*lshrdi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13374,7 +13374,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4049 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4049 */
   {
     "*ashlsi3_extend",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13389,7 +13389,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4049 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4049 */
   {
     "*ashrsi3_extend",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13404,7 +13404,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4049 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4049 */
   {
     "*lshrsi3_extend",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13419,7 +13419,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4064 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4064 */
   {
     "*ashlsi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13434,7 +13434,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4064 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4064 */
   {
     "*ashrsi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13449,7 +13449,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4064 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4064 */
   {
     "*lshrsi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13464,7 +13464,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4086 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4086 */
   {
     "*ashldi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13479,7 +13479,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4106 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4106 */
   {
     "*ashrdi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13494,7 +13494,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4125 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4125 */
   {
     "*lshrdi3_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13509,7 +13509,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4167 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4167 */
   {
     "*mips.md:4167",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13530,7 +13530,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4181 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4181 */
   {
     "rotrsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13545,7 +13545,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4181 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4181 */
   {
     "rotrdi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13560,7 +13560,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4249 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4249 */
   {
     "branch_fp",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13575,7 +13575,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4269 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4269 */
   {
     "branch_fp_inverted",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13590,7 +13590,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4291 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4291 */
   {
     "*branch_zerosi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13605,7 +13605,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4291 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4291 */
   {
     "*branch_zerodi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13620,7 +13620,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4311 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4311 */
   {
     "*branch_zerosi_inverted",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13635,7 +13635,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4311 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4311 */
   {
     "*branch_zerodi_inverted",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13650,7 +13650,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4333 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4333 */
   {
     "*branch_equalitysi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13665,7 +13665,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4333 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4333 */
   {
     "*branch_equalitydi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13680,7 +13680,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4353 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4353 */
   {
     "*branch_equalitysi_inverted",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13695,7 +13695,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4353 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4353 */
   {
     "*branch_equalitydi_inverted",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13710,7 +13710,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4375 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4375 */
   {
     "*branch_equalitysi_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13725,7 +13725,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4375 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4375 */
   {
     "*branch_equalitydi_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13740,7 +13740,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4430 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4430 */
   {
     "*seq_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13761,7 +13761,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4430 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4430 */
   {
     "*seq_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13782,7 +13782,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4439 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4439 */
   {
     "*seq_si_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13803,7 +13803,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4439 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4439 */
   {
     "*seq_di_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13824,7 +13824,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4458 */
   {
     "*sne_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13845,7 +13845,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4458 */
   {
     "*sne_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13866,7 +13866,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4474 */
   {
     "*sgt_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13887,7 +13887,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4474 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4474 */
   {
     "*sgt_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13908,7 +13908,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4483 */
   {
     "*sgt_si_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13929,7 +13929,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4483 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4483 */
   {
     "*sgt_di_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13950,7 +13950,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4499 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4499 */
   {
     "*sge_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13971,7 +13971,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4499 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4499 */
   {
     "*sge_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -13992,7 +13992,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4515 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4515 */
   {
     "*slt_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14013,7 +14013,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4515 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4515 */
   {
     "*slt_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14034,7 +14034,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4524 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4524 */
   {
     "*slt_si_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14055,7 +14055,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4524 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4524 */
   {
     "*slt_di_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14076,7 +14076,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4545 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4545 */
   {
     "*sle_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14091,7 +14091,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4545 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4545 */
   {
     "*sle_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14106,7 +14106,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4557 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4557 */
   {
     "*sle_si_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14121,7 +14121,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4557 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4557 */
   {
     "*sle_di_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14136,7 +14136,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4579 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4579 */
   {
     "*sgtu_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14157,7 +14157,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4579 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4579 */
   {
     "*sgtu_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14178,7 +14178,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4588 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4588 */
   {
     "*sgtu_si_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14199,7 +14199,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4588 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4588 */
   {
     "*sgtu_di_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14220,7 +14220,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4604 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4604 */
   {
     "*sge_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14241,7 +14241,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4604 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4604 */
   {
     "*sge_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14262,7 +14262,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4620 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4620 */
   {
     "*sltu_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14283,7 +14283,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4620 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4620 */
   {
     "*sltu_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14304,7 +14304,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4629 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4629 */
   {
     "*sltu_si_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14325,7 +14325,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4629 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4629 */
   {
     "*sltu_di_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14346,7 +14346,7 @@ const struct insn_data insn_data[] =
     2,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4650 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4650 */
   {
     "*sleu_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14361,7 +14361,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4650 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4650 */
   {
     "*sleu_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14376,7 +14376,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4662 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4662 */
   {
     "*sleu_si_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14391,7 +14391,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4662 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4662 */
   {
     "*sleu_di_mips16",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14406,7 +14406,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sunordered_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14427,7 +14427,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "suneq_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14448,7 +14448,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sunlt_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14469,7 +14469,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sunle_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14490,7 +14490,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "seq_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14511,7 +14511,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "slt_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14532,7 +14532,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sle_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14553,7 +14553,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sunordered_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14574,7 +14574,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "suneq_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14595,7 +14595,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sunlt_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14616,7 +14616,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sunle_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14637,7 +14637,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "seq_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14658,7 +14658,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "slt_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14679,7 +14679,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4684 */
   {
     "sle_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14700,7 +14700,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sge_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14721,7 +14721,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sgt_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14742,7 +14742,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sunge_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14763,7 +14763,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sungt_sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14784,7 +14784,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sge_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14805,7 +14805,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sgt_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14826,7 +14826,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sunge_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14847,7 +14847,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4693 */
   {
     "sungt_df",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14868,7 +14868,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4711 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4711 */
   {
     "jump",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14883,7 +14883,7 @@ const struct insn_data insn_data[] =
     0,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4745 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4745 */
   {
     "*mips.md:4745",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14904,7 +14904,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4766 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4766 */
   {
     "indirect_jumpsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14925,7 +14925,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4766 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4766 */
   {
     "indirect_jumpdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14946,7 +14946,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4795 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4795 */
   {
     "tablejumpsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14967,7 +14967,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4795 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4795 */
   {
     "tablejumpdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -14988,7 +14988,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4873 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4873 */
   {
     "blockage",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15009,7 +15009,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4900 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4900 */
   {
     "return",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15030,7 +15030,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4909 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4909 */
   {
     "return_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15051,7 +15051,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4937 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4937 */
   {
     "eh_set_lr_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15072,7 +15072,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4943 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4943 */
   {
     "eh_set_lr_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15093,7 +15093,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4959 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4959 */
   {
     "exception_receiver",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15114,7 +15114,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4994 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4994 */
   {
     "load_callsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15135,7 +15135,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4994 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4994 */
   {
     "load_calldi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15156,7 +15156,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5029 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5029 */
   {
     "sibcall_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15171,7 +15171,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5050 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5050 */
   {
     "sibcall_value_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15186,7 +15186,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5060 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5060 */
   {
     "sibcall_value_multiple_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15201,7 +15201,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5121 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5121 */
   {
     "call_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15216,7 +15216,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5138 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5138 */
   {
     "call_split",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15237,7 +15237,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5160 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5160 */
   {
     "call_value_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15252,7 +15252,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5179 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5179 */
   {
     "call_value_split",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15273,7 +15273,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5190 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5190 */
   {
     "call_value_multiple_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15288,7 +15288,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5212 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5212 */
   {
     "call_value_multiple_split",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15309,7 +15309,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5257 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5257 */
   {
     "prefetch",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15324,7 +15324,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5268 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5268 */
   {
     "*prefetch_indexed_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15339,7 +15339,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5268 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5268 */
   {
     "*prefetch_indexed_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15354,7 +15354,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5280 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5280 */
   {
     "nop",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15375,7 +15375,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5288 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5288 */
   {
     "hazard_nop",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15390,7 +15390,7 @@ const struct insn_data insn_data[] =
     0,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
   {
     "*movsi_on_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15405,7 +15405,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
   {
     "*movdi_on_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15420,7 +15420,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
   {
     "*movsi_on_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15435,7 +15435,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
   {
     "*movdi_on_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15450,7 +15450,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
   {
     "*movsi_on_cc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15465,7 +15465,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5301 */
   {
     "*movdi_on_cc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15480,7 +15480,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
   {
     "*movsf_on_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15495,7 +15495,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
   {
     "*movdf_on_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15510,7 +15510,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
   {
     "*movsf_on_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15525,7 +15525,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
   {
     "*movdf_on_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15540,7 +15540,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
   {
     "*movsf_on_cc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15555,7 +15555,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5316 */
   {
     "*movdf_on_cc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15570,7 +15570,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5365 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5365 */
   {
     "consttable_int",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15585,7 +15585,7 @@ const struct insn_data insn_data[] =
     0,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5377 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5377 */
   {
     "consttable_float",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15600,7 +15600,7 @@ const struct insn_data insn_data[] =
     0,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5393 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5393 */
   {
     "align",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15621,7 +15621,7 @@ const struct insn_data insn_data[] =
     0,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:21 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:21 */
   {
     "*movcc_v2sf_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15636,7 +15636,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:21 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:21 */
   {
     "*movcc_v2sf_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15651,7 +15651,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:36 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:36 */
   {
     "mips_cond_move_tf_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15666,7 +15666,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:70 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:70 */
   {
     "mips_pul_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15687,7 +15687,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:82 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:82 */
   {
     "mips_puu_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15708,7 +15708,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:96 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:96 */
   {
     "mips_pll_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15729,7 +15729,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:110 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:110 */
   {
     "mips_plu_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15750,7 +15750,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:137 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:137 */
   {
     "vec_initv2sf_internal",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15765,7 +15765,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:156 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:156 */
   {
     "vec_extractv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15780,7 +15780,7 @@ const struct insn_data insn_data[] =
     1,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:226 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:226 */
   {
     "mips_alnv_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15801,7 +15801,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:238 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:238 */
   {
     "mips_addr_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15822,7 +15822,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:249 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:249 */
   {
     "mips_cvt_pw_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15843,7 +15843,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:259 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:259 */
   {
     "mips_cvt_ps_pw",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15864,7 +15864,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:269 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:269 */
   {
     "mips_mulr_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15885,7 +15885,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:283 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:283 */
   {
     "mips_cabs_cond_s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15906,7 +15906,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:283 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:283 */
   {
     "mips_cabs_cond_d",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15927,7 +15927,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:299 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:299 */
   {
     "mips_c_cond_4s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15948,7 +15948,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:328 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:328 */
   {
     "mips_cabs_cond_4s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15969,7 +15969,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:362 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:362 */
   {
     "mips_c_cond_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -15990,7 +15990,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:373 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:373 */
   {
     "mips_cabs_cond_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16011,7 +16011,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:390 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:390 */
   {
     "bc1any4t",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16032,7 +16032,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:402 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:402 */
   {
     "bc1any4f",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16053,7 +16053,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:414 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:414 */
   {
     "bc1any2t",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16074,7 +16074,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:426 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:426 */
   {
     "bc1any2f",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16095,7 +16095,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:441 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:441 */
   {
     "mips_rsqrt1_s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16116,7 +16116,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:441 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:441 */
   {
     "mips_rsqrt1_d",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16137,7 +16137,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:441 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:441 */
   {
     "mips_rsqrt1_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16158,7 +16158,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:450 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:450 */
   {
     "mips_rsqrt2_s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16179,7 +16179,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:450 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:450 */
   {
     "mips_rsqrt2_d",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16200,7 +16200,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:450 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:450 */
   {
     "mips_rsqrt2_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16221,7 +16221,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:460 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:460 */
   {
     "mips_recip1_s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16242,7 +16242,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:460 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:460 */
   {
     "mips_recip1_d",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16263,7 +16263,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:460 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:460 */
   {
     "mips_recip1_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16284,7 +16284,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:469 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:469 */
   {
     "mips_recip2_s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16305,7 +16305,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:469 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:469 */
   {
     "mips_recip2_d",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16326,7 +16326,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:469 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:469 */
   {
     "mips_recip2_ps",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16347,7 +16347,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1 */
   {
     "addv2hi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16368,7 +16368,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1 */
   {
     "addv4qi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16389,7 +16389,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:50 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:50 */
   {
     "mips_addq_s_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16410,7 +16410,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:50 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:50 */
   {
     "mips_addq_s_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16431,7 +16431,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:50 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:50 */
   {
     "mips_addu_s_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16452,7 +16452,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:64 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:64 */
   {
     "subv2hi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16473,7 +16473,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:64 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:64 */
   {
     "subv4qi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16494,7 +16494,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:76 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:76 */
   {
     "mips_subq_s_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16515,7 +16515,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:76 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:76 */
   {
     "mips_subq_s_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16536,7 +16536,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:76 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:76 */
   {
     "mips_subu_s_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16557,7 +16557,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:90 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:90 */
   {
     "mips_addsc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16578,7 +16578,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:104 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:104 */
   {
     "mips_addwc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16599,7 +16599,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:119 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:119 */
   {
     "mips_modsub",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16620,7 +16620,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:130 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:130 */
   {
     "mips_raddu_w_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16641,7 +16641,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:140 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:140 */
   {
     "mips_absq_s_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16662,7 +16662,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:140 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:140 */
   {
     "mips_absq_s_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16683,7 +16683,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:153 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:153 */
   {
     "mips_precrq_qb_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16704,7 +16704,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:163 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:163 */
   {
     "mips_precrq_ph_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16725,7 +16725,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:173 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:173 */
   {
     "mips_precrq_rs_ph_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16746,7 +16746,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:188 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:188 */
   {
     "mips_precrqu_s_qb_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16767,7 +16767,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:203 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:203 */
   {
     "mips_preceq_w_phl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16788,7 +16788,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:212 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:212 */
   {
     "mips_preceq_w_phr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16809,7 +16809,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:222 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:222 */
   {
     "mips_precequ_ph_qbl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16830,7 +16830,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:231 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:231 */
   {
     "mips_precequ_ph_qbr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16851,7 +16851,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:240 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:240 */
   {
     "mips_precequ_ph_qbla",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16872,7 +16872,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:249 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:249 */
   {
     "mips_precequ_ph_qbra",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16893,7 +16893,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:259 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:259 */
   {
     "mips_preceu_ph_qbl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16914,7 +16914,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:268 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:268 */
   {
     "mips_preceu_ph_qbr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16935,7 +16935,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:277 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:277 */
   {
     "mips_preceu_ph_qbla",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16956,7 +16956,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:286 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:286 */
   {
     "mips_preceu_ph_qbra",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16977,7 +16977,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:297 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:297 */
   {
     "mips_shll_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -16992,7 +16992,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:297 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:297 */
   {
     "mips_shll_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17007,7 +17007,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:319 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:319 */
   {
     "mips_shll_s_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17022,7 +17022,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:319 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:319 */
   {
     "mips_shll_s_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17037,7 +17037,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:342 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:342 */
   {
     "mips_shrl_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17052,7 +17052,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:361 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:361 */
   {
     "mips_shra_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17067,7 +17067,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:379 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:379 */
   {
     "mips_shra_r_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17082,7 +17082,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:379 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:379 */
   {
     "mips_shra_r_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17097,7 +17097,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:400 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:400 */
   {
     "mips_muleu_s_ph_qbl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17118,7 +17118,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:414 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:414 */
   {
     "mips_muleu_s_ph_qbr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17139,7 +17139,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:429 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:429 */
   {
     "mips_mulq_rs_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17160,7 +17160,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:444 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:444 */
   {
     "mips_muleq_s_w_phl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17181,7 +17181,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:458 */
   {
     "mips_muleq_s_w_phr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17202,7 +17202,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:473 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:473 */
   {
     "mips_dpau_h_qbl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17223,7 +17223,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:484 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:484 */
   {
     "mips_dpau_h_qbr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17244,7 +17244,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:496 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:496 */
   {
     "mips_dpsu_h_qbl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17265,7 +17265,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:507 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:507 */
   {
     "mips_dpsu_h_qbr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17286,7 +17286,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:519 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:519 */
   {
     "mips_dpaq_s_w_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17307,7 +17307,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:535 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:535 */
   {
     "mips_dpsq_s_w_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17328,7 +17328,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:551 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:551 */
   {
     "mips_mulsaq_s_w_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17349,7 +17349,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:567 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:567 */
   {
     "mips_dpaq_sa_l_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17370,7 +17370,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:583 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:583 */
   {
     "mips_dpsq_sa_l_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17391,7 +17391,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:599 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:599 */
   {
     "mips_maq_s_w_phl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17412,7 +17412,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:614 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:614 */
   {
     "mips_maq_s_w_phr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17433,7 +17433,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:630 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:630 */
   {
     "mips_maq_sa_w_phl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17454,7 +17454,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:645 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:645 */
   {
     "mips_maq_sa_w_phr",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17475,7 +17475,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:662 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:662 */
   {
     "mips_bitrev",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17496,7 +17496,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:672 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:672 */
   {
     "mips_insv",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17517,7 +17517,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:685 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:685 */
   {
     "mips_repl_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17532,7 +17532,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:702 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:702 */
   {
     "mips_repl_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17547,7 +17547,7 @@ const struct insn_data insn_data[] =
     2,
     2
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:715 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:715 */
   {
     "mips_cmp_eq_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17568,7 +17568,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:715 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:715 */
   {
     "mips_cmpu_eq_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17589,7 +17589,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:726 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:726 */
   {
     "mips_cmp_lt_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17610,7 +17610,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:726 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:726 */
   {
     "mips_cmpu_lt_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17631,7 +17631,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:737 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:737 */
   {
     "mips_cmp_le_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17652,7 +17652,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:737 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:737 */
   {
     "mips_cmpu_le_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17673,7 +17673,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:748 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:748 */
   {
     "mips_cmpgu_eq_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17694,7 +17694,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:758 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:758 */
   {
     "mips_cmpgu_lt_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17715,7 +17715,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:768 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:768 */
   {
     "mips_cmpgu_le_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17736,7 +17736,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:779 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:779 */
   {
     "mips_pick_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17757,7 +17757,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:779 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:779 */
   {
     "mips_pick_qb",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17778,7 +17778,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:791 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:791 */
   {
     "mips_packrl_ph",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17799,7 +17799,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:803 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:803 */
   {
     "mips_extr_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17814,7 +17814,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:824 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:824 */
   {
     "mips_extr_r_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17829,7 +17829,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:845 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:845 */
   {
     "mips_extr_rs_w",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17844,7 +17844,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:867 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:867 */
   {
     "mips_extr_s_h",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17859,7 +17859,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:889 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:889 */
   {
     "mips_extp",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17874,7 +17874,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:911 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:911 */
   {
     "mips_extpdp",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17889,7 +17889,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:937 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:937 */
   {
     "mips_shilo",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17904,7 +17904,7 @@ const struct insn_data insn_data[] =
     2,
     3
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:956 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:956 */
   {
     "mips_mthlip",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17925,7 +17925,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:972 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:972 */
   {
     "mips_wrdsp",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17946,7 +17946,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:994 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:994 */
   {
     "mips_rddsp",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17967,7 +17967,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1011 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1011 */
   {
     "mips_lbux",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -17988,7 +17988,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1023 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1023 */
   {
     "mips_lhx",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18009,7 +18009,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1035 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1035 */
   {
     "mips_lwx",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18030,7 +18030,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1047 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-dsp.md:1047 */
   {
     "mips_bposge",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18051,7 +18051,7 @@ const struct insn_data insn_data[] =
     1,
     1
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:613 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:613 */
   {
     "conditional_trap",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18066,7 +18066,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:655 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:655 */
   {
     "addsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18081,7 +18081,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:655 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:655 */
   {
     "adddi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18096,7 +18096,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:727 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:727 */
   {
     "adddi3+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18111,7 +18111,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:756 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:756 */
   {
     "adddi3+2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18126,7 +18126,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:788 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:788 */
   {
     "adddi3+3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18141,7 +18141,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:817 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:817 */
   {
     "mulsf3-2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18156,7 +18156,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:863 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:863 */
   {
     "mulsf3-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18171,7 +18171,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:921 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:921 */
   {
     "mulsf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18186,7 +18186,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:921 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:921 */
   {
     "muldf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18201,7 +18201,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1006 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1006 */
   {
     "mulsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18216,7 +18216,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1006 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1006 */
   {
     "muldi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18231,7 +18231,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1066 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1066 */
   {
     "muldi3+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18246,7 +18246,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1114 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1114 */
   {
     "muldi3+2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18261,7 +18261,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1172 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1172 */
   {
     "muldi3+3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18276,7 +18276,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1191 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1191 */
   {
     "muldi3+4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18291,7 +18291,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1253 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1253 */
   {
     "muldi3+5",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18306,7 +18306,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1316 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1316 */
   {
     "mulsidi3-5",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18321,7 +18321,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1347 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1347 */
   {
     "mulsidi3-4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18336,7 +18336,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1383 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1383 */
   {
     "mulsidi3-3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18351,7 +18351,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1427 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1427 */
   {
     "mulsidi3-2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18366,7 +18366,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1446 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1446 */
   {
     "mulsidi3-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18381,7 +18381,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1481 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1481 */
   {
     "mulsidi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18396,7 +18396,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1481 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1481 */
   {
     "umulsidi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18411,7 +18411,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
   {
     "umulsidi3+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18426,7 +18426,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1523 */
   {
     "smulsi3_highpart-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18441,7 +18441,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1616 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1616 */
   {
     "smulsi3_highpart",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18456,7 +18456,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1616 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1616 */
   {
     "umulsi3_highpart",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18471,7 +18471,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1813 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1813 */
   {
     "divsf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18486,7 +18486,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1813 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1813 */
   {
     "divdf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18501,7 +18501,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1813 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:1813 */
   {
     "divv2sf3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18516,7 +18516,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2055 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2055 */
   {
     "andsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18531,7 +18531,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2055 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2055 */
   {
     "anddi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18546,7 +18546,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2085 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2085 */
   {
     "iorsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18561,7 +18561,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2085 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2085 */
   {
     "iordi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18576,7 +18576,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2115 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2115 */
   {
     "xorsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18591,7 +18591,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2115 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2115 */
   {
     "xordi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18606,7 +18606,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2249 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2249 */
   {
     "xordi3+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18621,7 +18621,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2264 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2264 */
   {
     "xordi3+2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18636,7 +18636,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2318 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2318 */
   {
     "zero_extendqisi2-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18651,7 +18651,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
   {
     "zero_extendqisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18666,7 +18666,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
   {
     "zero_extendqidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18681,7 +18681,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
   {
     "zero_extendhisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18696,7 +18696,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2335 */
   {
     "zero_extendhidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18711,7 +18711,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2378 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2378 */
   {
     "zero_extendqihi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18726,7 +18726,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2427 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2427 */
   {
     "zero_extendqihi2+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18741,7 +18741,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
   {
     "extendqisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18756,7 +18756,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
   {
     "extendqidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18771,7 +18771,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
   {
     "extendhisi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18786,7 +18786,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2443 */
   {
     "extendhidi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18801,7 +18801,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "extendhidi2+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18816,7 +18816,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "extendhidi2+2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18831,7 +18831,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "extendhidi2+3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18846,7 +18846,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2458 */
   {
     "fix_truncdfsi2-2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18861,7 +18861,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2491 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2491 */
   {
     "fix_truncdfsi2-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18876,7 +18876,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2519 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2519 */
   {
     "fix_truncdfsi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18891,7 +18891,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2557 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2557 */
   {
     "fix_truncsfsi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18906,7 +18906,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2662 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2662 */
   {
     "fixuns_truncdfsi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18921,7 +18921,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2707 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2707 */
   {
     "fixuns_truncdfdi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18936,7 +18936,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2749 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2749 */
   {
     "fixuns_truncsfsi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18951,7 +18951,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2791 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2791 */
   {
     "fixuns_truncsfdi2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18966,7 +18966,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2841 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2841 */
   {
     "extv",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18981,7 +18981,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2856 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2856 */
   {
     "extzv",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -18996,7 +18996,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2892 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2892 */
   {
     "insv",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19011,7 +19011,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2996 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:2996 */
   {
     "insv+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19026,7 +19026,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3021 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3021 */
   {
     "insv+2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19041,7 +19041,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3049 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3049 */
   {
     "insv+3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19056,7 +19056,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
   {
     "insv+4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19071,7 +19071,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3070 */
   {
     "insv+5",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19086,7 +19086,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
   {
     "insv+6",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19101,7 +19101,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3085 */
   {
     "movdi-5",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19116,7 +19116,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
   {
     "movdi-4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19131,7 +19131,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3100 */
   {
     "movdi-3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19146,7 +19146,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
   {
     "movdi-2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19161,7 +19161,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3117 */
   {
     "movdi-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19176,7 +19176,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3176 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3176 */
   {
     "movdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19191,7 +19191,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3258 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3258 */
   {
     "movdi+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19206,7 +19206,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3303 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3303 */
   {
     "movsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19221,7 +19221,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3353 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3353 */
   {
     "movsi+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19236,7 +19236,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3395 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3395 */
   {
     "reload_incc-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19251,7 +19251,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3441 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3441 */
   {
     "reload_incc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19266,7 +19266,7 @@ const struct insn_data insn_data[] =
     1,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3451 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3451 */
   {
     "reload_outcc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19281,7 +19281,7 @@ const struct insn_data insn_data[] =
     1,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3499 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3499 */
   {
     "movhi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19296,7 +19296,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3561 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3561 */
   {
     "movhi+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19311,7 +19311,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3606 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3606 */
   {
     "movqi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19326,7 +19326,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3656 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3656 */
   {
     "movqi+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19341,7 +19341,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3684 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3684 */
   {
     "movsf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19356,7 +19356,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3729 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3729 */
   {
     "movdf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19371,7 +19371,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3782 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3782 */
   {
     "movdf+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19386,7 +19386,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3793 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3793 */
   {
     "movdf+2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19401,7 +19401,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3806 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3806 */
   {
     "movv2sf-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19416,7 +19416,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3821 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3821 */
   {
     "movv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19431,7 +19431,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3853 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3853 */
   {
     "mfhilo_si",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19446,7 +19446,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3853 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3853 */
   {
     "mfhilo_di",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19461,7 +19461,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3933 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3933 */
   {
     "mfhilo_di+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19476,7 +19476,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3984 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:3984 */
   {
     "movmemsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19491,7 +19491,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
   {
     "ashlsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19506,7 +19506,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
   {
     "ashrsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19521,7 +19521,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
   {
     "lshrsi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19536,7 +19536,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
   {
     "ashldi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19551,7 +19551,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
   {
     "ashrdi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19566,7 +19566,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4004 */
   {
     "lshrdi3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19581,7 +19581,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
   {
     "lshrdi3+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19596,7 +19596,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
   {
     "lshrdi3+2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19611,7 +19611,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
   {
     "lshrdi3+3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19626,7 +19626,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
   {
     "lshrdi3+4",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19641,7 +19641,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
   {
     "cmpsi-3",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19656,7 +19656,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4146 */
   {
     "cmpsi-2",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19671,7 +19671,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4167 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4167 */
   {
     "cmpsi-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19686,7 +19686,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4218 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4218 */
   {
     "cmpsi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19701,7 +19701,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4218 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4218 */
   {
     "cmpdi",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19716,7 +19716,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4229 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4229 */
   {
     "cmpsf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19731,7 +19731,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4229 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4229 */
   {
     "cmpdf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19746,7 +19746,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bunordered",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19761,7 +19761,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bordered",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19776,7 +19776,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bunlt",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19791,7 +19791,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bunge",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19806,7 +19806,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "buneq",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19821,7 +19821,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bltgt",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19836,7 +19836,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bunle",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19851,7 +19851,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bungt",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19866,7 +19866,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "beq",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19881,7 +19881,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bne",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19896,7 +19896,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bgt",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19911,7 +19911,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bge",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19926,7 +19926,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "blt",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19941,7 +19941,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "ble",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19956,7 +19956,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bgtu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19971,7 +19971,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bgeu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -19986,7 +19986,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bltu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20001,7 +20001,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4404 */
   {
     "bleu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20016,7 +20016,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4423 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4423 */
   {
     "seq",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20031,7 +20031,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4451 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4451 */
   {
     "sne",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20046,7 +20046,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4467 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4467 */
   {
     "sgt",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20061,7 +20061,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4492 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4492 */
   {
     "sge",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20076,7 +20076,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4508 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4508 */
   {
     "slt",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20091,7 +20091,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4538 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4538 */
   {
     "sle",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20106,7 +20106,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4572 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4572 */
   {
     "sgtu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20121,7 +20121,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4597 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4597 */
   {
     "sgeu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20136,7 +20136,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4613 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4613 */
   {
     "sltu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20151,7 +20151,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4643 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4643 */
   {
     "sleu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20166,7 +20166,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4754 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4754 */
   {
     "indirect_jump",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20181,7 +20181,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4773 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4773 */
   {
     "tablejump",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20196,7 +20196,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4809 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4809 */
   {
     "builtin_setjmp_setup",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20211,7 +20211,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4824 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4824 */
   {
     "builtin_longjmp",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20226,7 +20226,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4861 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4861 */
   {
     "prologue",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20241,7 +20241,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4881 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4881 */
   {
     "epilogue",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20256,7 +20256,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4889 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4889 */
   {
     "sibcall_epilogue",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20271,7 +20271,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4918 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4918 */
   {
     "eh_return",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20286,7 +20286,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4949 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4949 */
   {
     "eh_return+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20301,7 +20301,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4959 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:4959 */
   {
     "sibcall-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20316,7 +20316,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5018 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5018 */
   {
     "sibcall",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20331,7 +20331,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5038 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5038 */
   {
     "sibcall_value",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20346,7 +20346,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5073 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5073 */
   {
     "call",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20361,7 +20361,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5121 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5121 */
   {
     "call+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20376,7 +20376,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5147 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5147 */
   {
     "call_value",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20391,7 +20391,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5160 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5160 */
   {
     "call_value+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20406,7 +20406,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5190 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5190 */
   {
     "untyped_call-1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20421,7 +20421,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5227 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5227 */
   {
     "untyped_call",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20436,7 +20436,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5333 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5333 */
   {
     "movsicc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20451,7 +20451,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5333 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5333 */
   {
     "movdicc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20466,7 +20466,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5345 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5345 */
   {
     "movsfcc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20481,7 +20481,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5345 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5345 */
   {
     "movdfcc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20496,7 +20496,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5399 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips.md:5399 */
   {
     "movdfcc+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20511,7 +20511,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:49 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:49 */
   {
     "movv2sfcc",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20526,7 +20526,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:126 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:126 */
   {
     "vec_initv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20541,7 +20541,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:174 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:174 */
   {
     "vec_setv2sf",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20556,7 +20556,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:194 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:194 */
   {
     "mips_cvt_ps_s",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20571,7 +20571,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:210 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:210 */
   {
     "mips_cvt_s_pl",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20586,7 +20586,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:218 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:218 */
   {
     "mips_cvt_s_pu",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20601,7 +20601,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:299 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:299 */
   {
     "mips_cvt_s_pu+1",
 #if HAVE_DESIGNATED_INITIALIZERS
@@ -20616,7 +20616,7 @@ const struct insn_data insn_data[] =
     0,
     0
   },
-  /* /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:328 */
+  /* /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gcc/config/mips/mips-ps-3d.md:328 */
   {
     "mips_cvt_s_pu+2",
 #if HAVE_DESIGNATED_INITIALIZERS

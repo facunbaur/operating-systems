@@ -26,10 +26,10 @@
 # Makefile for libiberty directory
 #
 
-libiberty_topdir = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/..
-srcdir = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty
+libiberty_topdir = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/..
+srcdir = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty
 
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
@@ -59,10 +59,10 @@ AR = ar
 AR_FLAGS = rc
 
 CC = gcc
-CFLAGS = -g -O2
+CFLAGS = -g -O2 -Wno-error
 LIBCFLAGS = $(CFLAGS)
 RANLIB = ranlib
-MAKEINFO = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing makeinfo --split-size=5000000
+MAKEINFO = /home/zdebardlebon/cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing makeinfo --split-size=5000000
 PERL = perl
 
 PICFLAG =

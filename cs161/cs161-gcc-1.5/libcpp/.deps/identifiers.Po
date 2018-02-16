@@ -1,7 +1,7 @@
 identifiers.o: \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/identifiers.c \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/identifiers.c \
  /usr/include/stdc-predef.h config.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
  /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -25,7 +25,7 @@ identifiers.o: \
  /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/getopt.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/getopt.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -35,25 +35,25 @@ identifiers.o: \
  /usr/include/bits/fcntl-linux.h /usr/include/bits/stat.h \
  /usr/include/locale.h /usr/include/bits/locale.h /usr/include/langinfo.h \
  /usr/include/nl_types.h /usr/include/libintl.h /usr/include/sys/stat.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h \
- /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h \
+ /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h \
  /usr/include/iconv.h
 
 /usr/include/stdc-predef.h:
 
 config.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/system.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
 
@@ -151,7 +151,7 @@ config.h:
 
 /usr/include/bits/confname.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/getopt.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/getopt.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/limits.h:
 
@@ -189,28 +189,28 @@ config.h:
 
 /usr/include/sys/stat.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/filenames.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/libiberty.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/ansidecl.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/safe-ctype.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/../include/obstack.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/line-map.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/internal.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/symtab.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpp-id-data.h:
 
-/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
+/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp/include/cpplib.h:
 
 /usr/include/iconv.h:

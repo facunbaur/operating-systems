@@ -1,4 +1,4 @@
-dir /cs161/cs161-binutils-1.4/./binutils-2.14/gas
+dir /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/gas
 dir .
 
 break as_warn

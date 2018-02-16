@@ -24,7 +24,7 @@
 # -------------------------------
 # Standard Autoconf-set variables
 # -------------------------------
-VPATH=/cs161/cs161-gdb-1.5/./gdb-6.6+cs161
+VPATH=/home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161
 
 build_alias=x86_64-unknown-linux-gnu
 build=x86_64-unknown-linux-gnu
@@ -35,10 +35,10 @@ target=mips-unknown-elf
 
 program_transform_name = s,^,mips-elf-,; 
 
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 exec_prefix = ${prefix}
 
-srcdir = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161
+srcdir = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161
 
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -77,7 +77,7 @@ LN_S = ln -s
 # -------------------------------------------------
 
 # The gcc driver likes to know the arguments it was configured with.
-TOPLEVEL_CONFIGURE_ARGUMENTS=/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/configure --target=mips-elf --prefix=/root/cs161/tools
+TOPLEVEL_CONFIGURE_ARGUMENTS=/home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/configure --target=mips-elf --prefix=/home/zdebardlebon/cs161/tools
 
 tooldir = ${exec_prefix}/mips-elf
 build_tooldir = ${exec_prefix}/mips-elf
@@ -92,7 +92,7 @@ RPATH_ENVVAR = LD_LIBRARY_PATH
 BUILD_SUBDIR = build-x86_64-unknown-linux-gnu
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the build system.
-BUILD_CONFIGARGS = --cache-file=../config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-elf --prefix=/root/cs161/tools --program-transform-name='s,^,mips-elf-,; ' --with-build-subdir="$(BUILD_SUBDIR)"
+BUILD_CONFIGARGS = --cache-file=../config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-elf --prefix=/home/zdebardlebon/cs161/tools --program-transform-name='s,^,mips-elf-,; ' --with-build-subdir="$(BUILD_SUBDIR)"
 
 # This is the list of variables to export in the environment when
 # configuring any subdirectory.  It must also be exported whenever
@@ -130,7 +130,7 @@ BUILD_EXPORTS = \
 SUBDIRS =  intl libiberty opcodes bfd readline sim gdb etc
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the host system.
-HOST_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-elf  --with-stabs --prefix=/root/cs161/tools --program-transform-name='s,^,mips-elf-,; '
+HOST_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-elf  --with-stabs --prefix=/home/zdebardlebon/cs161/tools --program-transform-name='s,^,mips-elf-,; '
 # Host programs are put under this directory, which is . except if building
 # with srcdir=..
 HOST_SUBDIR = .
@@ -183,7 +183,7 @@ POSTSTAGE1_HOST_EXPORTS = \
 TARGET_SUBDIR = mips-elf
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the target.
-TARGET_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=mips-elf --target=mips-elf --enable-multilib --with-cross-host=x86_64-unknown-linux-gnu --prefix=/root/cs161/tools --program-transform-name='s,^,mips-elf-,; ' --with-target-subdir="$(TARGET_SUBDIR)"
+TARGET_CONFIGARGS = --cache-file=./config.cache --build=x86_64-unknown-linux-gnu --host=mips-elf --target=mips-elf --enable-multilib --with-cross-host=x86_64-unknown-linux-gnu --prefix=/home/zdebardlebon/cs161/tools --program-transform-name='s,^,mips-elf-,; ' --with-target-subdir="$(TARGET_SUBDIR)"
 # This is the list of variables to export in the environment when
 # configuring subdirectories for the host system.
 BASE_TARGET_EXPORTS = \
@@ -238,7 +238,7 @@ PWD_COMMAND = $${PWDCMD-pwd}
 # compilers to use to create programs which must be run in the build
 # environment.
 CC_FOR_BUILD = $(CC)
-CFLAGS_FOR_BUILD = -g -O2
+CFLAGS_FOR_BUILD = -g -O2 -Wno-error
 
 CXX_FOR_BUILD = $(CXX)
 
@@ -252,12 +252,12 @@ BUILD_PREFIX_1 = @BUILD_PREFIX_1@
 BOOT_CFLAGS= -g -O2
 BOOT_LDFLAGS=
 
-BISON = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing bison
-YACC = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing bison -y
-FLEX = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing flex
-LEX = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing flex
-M4 = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing m4
-MAKEINFO = /cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing makeinfo
+BISON = /home/zdebardlebon/cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing bison
+YACC = /home/zdebardlebon/cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing bison -y
+FLEX = flex
+LEX = flex
+M4 = m4
+MAKEINFO = /home/zdebardlebon/cs161/cs161-gdb-1.5/gdb-6.6+cs161/missing makeinfo
 EXPECT = expect
 RUNTEST = runtest
 
@@ -285,7 +285,7 @@ RANLIB = ranlib
 STRIP = strip
 WINDRES = windres
 
-CFLAGS = -g -O2
+CFLAGS = -g -O2 -Wno-error
 LDFLAGS = 
 LIBCFLAGS = $(CFLAGS)
 CXXFLAGS = -g -O2

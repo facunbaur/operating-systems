@@ -35,7 +35,7 @@ INCLUDES = -I. -I$(srcdir) -I../include -I$(srcdir)/../include
 FIXINC_CFLAGS = -DHAVE_CONFIG_H $(INCLUDES)
 
 # Directory where sources are, from where we are.
-srcdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/fixincludes
+srcdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/fixincludes
 VPATH = $(srcdir)
 
 # Directory in which to put the directories used by the compiler.

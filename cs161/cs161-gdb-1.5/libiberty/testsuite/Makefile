@@ -26,13 +26,13 @@
 # Makefile for libiberty/testsuite directory
 #
 
-srcdir = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/testsuite
-VPATH = /cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/testsuite
+srcdir = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/testsuite
+VPATH = /home/zdebardlebon/cs161/cs161-gdb-1.5/./gdb-6.6+cs161/libiberty/testsuite
 
 SHELL = /bin/sh
 
 CC = gcc
-CFLAGS = -g -O2
+CFLAGS = -g -O2 -Wno-error
 LIBCFLAGS = $(CFLAGS)
 
 # Multilib support variables.

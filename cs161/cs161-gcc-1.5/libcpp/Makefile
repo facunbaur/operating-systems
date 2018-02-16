@@ -22,15 +22,15 @@
 
 
 
-srcdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
+srcdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
 top_builddir = .
-VPATH = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
+VPATH = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libcpp
 INSTALL = /usr/bin/install -c
 AR = ar
 ARFLAGS = cru
-ACLOCAL = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing aclocal
-AUTOCONF = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing autoconf
-AUTOHEADER = /cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing autoheader
+ACLOCAL = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing aclocal
+AUTOCONF = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing autoconf
+AUTOHEADER = /home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing autoheader
 CATALOGS =  po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/vi.gmo po/zh_CN.gmo po/zh_TW.gmo po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/vi.gmo po/zh_CN.gmo po/zh_TW.gmo
 CC = gcc
 CFLAGS = -g -O2 
@@ -55,10 +55,10 @@ DEPMODE = depmode=gcc3
 DEPDIR = .deps
 
 datadir = ${prefix}/share
-exec_prefix = /root/cs161/tools
+exec_prefix = /home/zdebardlebon/cs161/tools
 libdir = ${exec_prefix}/lib
 localedir = $(datadir)/locale
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 
 MSGMERGE = msgmerge
 mkinstalldirs = $(SHELL) $(srcdir)/../mkinstalldirs

@@ -27,8 +27,8 @@
 # Makefile for libiberty/testsuite directory
 #
 
-srcdir = /cs161/cs161-binutils-1.4/./binutils-2.14/libiberty/testsuite
-VPATH = /cs161/cs161-binutils-1.4/./binutils-2.14/libiberty/testsuite
+srcdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/libiberty/testsuite
+VPATH = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/libiberty/testsuite
 
 SHELL = /bin/sh
 

@@ -112,17 +112,17 @@ ac_cv_header_wchar_h=${ac_cv_header_wchar_h=yes}
 ac_cv_host=${ac_cv_host=x86_64-unknown-linux-gnu}
 ac_cv_host_alias=${ac_cv_host_alias=x86_64-unknown-linux-gnu}
 ac_cv_objext=${ac_cv_objext=o}
-ac_cv_path_gcc_cv_as=${ac_cv_path_gcc_cv_as=/root/cs161/tools/bin/mips-linux-as}
-ac_cv_path_gcc_cv_ld=${ac_cv_path_gcc_cv_ld=/root/cs161/tools/bin/mips-linux-ld}
-ac_cv_path_gcc_cv_nm=${ac_cv_path_gcc_cv_nm=/root/cs161/tools/bin/mips-linux-nm}
-ac_cv_path_gcc_cv_objdump=${ac_cv_path_gcc_cv_objdump=/root/cs161/tools/bin/mips-linux-objdump}
+ac_cv_path_gcc_cv_as=${ac_cv_path_gcc_cv_as=/home/zdebardlebon/cs161/tools/bin/mips-linux-as}
+ac_cv_path_gcc_cv_ld=${ac_cv_path_gcc_cv_ld=/home/zdebardlebon/cs161/tools/bin/mips-linux-ld}
+ac_cv_path_gcc_cv_nm=${ac_cv_path_gcc_cv_nm=/home/zdebardlebon/cs161/tools/bin/mips-linux-nm}
+ac_cv_path_gcc_cv_objdump=${ac_cv_path_gcc_cv_objdump=/home/zdebardlebon/cs161/tools/bin/mips-linux-objdump}
 ac_cv_prog_AR=${ac_cv_prog_AR=ar}
 ac_cv_prog_AWK=${ac_cv_prog_AWK=gawk}
-ac_cv_prog_BISON=${ac_cv_prog_BISON='/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison'}
+ac_cv_prog_BISON=${ac_cv_prog_BISON='/home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing bison'}
 ac_cv_prog_CC=${ac_cv_prog_CC=gcc}
 ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -E'}
-ac_cv_prog_FLEX=${ac_cv_prog_FLEX='/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing flex'}
-ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
+ac_cv_prog_FLEX=${ac_cv_prog_FLEX=flex}
+ac_cv_prog_MAKEINFO=${ac_cv_prog_MAKEINFO='/home/zdebardlebon/cs161/cs161-gcc-1.5/gcc-4.1.2+cs161/missing makeinfo --split-size=5000000'}
 ac_cv_prog_NM=${ac_cv_prog_NM=nm}
 ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB=ranlib}
 ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
@@ -172,14 +172,14 @@ am_cv_lib_iconv=${am_cv_lib_iconv=no}
 am_cv_proto_iconv=${am_cv_proto_iconv='extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);'}
 am_cv_proto_iconv_arg1=${am_cv_proto_iconv_arg1=}
 am_cv_val_LC_MESSAGES=${am_cv_val_LC_MESSAGES=yes}
-gcc_cv_as=${gcc_cv_as=/root/cs161/tools/bin/mips-linux-as}
+gcc_cv_as=${gcc_cv_as=/home/zdebardlebon/cs161/tools/bin/mips-linux-as}
 gcc_cv_as_balign_and_p2align=${gcc_cv_as_balign_and_p2align=yes}
 gcc_cv_as_comdat_group=${gcc_cv_as_comdat_group=no}
 gcc_cv_as_comdat_group_percent=${gcc_cv_as_comdat_group_percent=no}
 gcc_cv_as_dwarf2_debug_line=${gcc_cv_as_dwarf2_debug_line=yes}
 gcc_cv_as_dwarf2_file_buggy=${gcc_cv_as_dwarf2_file_buggy=no}
 gcc_cv_as_eh_frame=${gcc_cv_as_eh_frame=yes}
-gcc_cv_as_gas_srcdir=${gcc_cv_as_gas_srcdir=/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gas}
+gcc_cv_as_gas_srcdir=${gcc_cv_as_gas_srcdir=/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/gas}
 gcc_cv_as_gdwarf2_flag=${gcc_cv_as_gdwarf2_flag=yes}
 gcc_cv_as_gstabs_flag=${gcc_cv_as_gstabs_flag=yes}
 gcc_cv_as_hidden=${gcc_cv_as_hidden=yes}
@@ -192,7 +192,7 @@ gcc_cv_as_subsection_m1=${gcc_cv_as_subsection_m1=yes}
 gcc_cv_as_tls=${gcc_cv_as_tls=no}
 gcc_cv_as_weak=${gcc_cv_as_weak=yes}
 gcc_cv_as_weakref=${gcc_cv_as_weakref=no}
-gcc_cv_binutils_srcdir=${gcc_cv_binutils_srcdir=/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/binutils}
+gcc_cv_binutils_srcdir=${gcc_cv_binutils_srcdir=/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/binutils}
 gcc_cv_collect2_libs=${gcc_cv_collect2_libs='none required'}
 gcc_cv_decl_char_bit=${gcc_cv_decl_char_bit=yes}
 gcc_cv_decl_map_anon=${gcc_cv_decl_map_anon=yes}
@@ -252,11 +252,11 @@ gcc_cv_have_decl_vsnprintf=${gcc_cv_have_decl_vsnprintf=yes}
 gcc_cv_header_inttypes_h=${gcc_cv_header_inttypes_h=yes}
 gcc_cv_header_string=${gcc_cv_header_string=yes}
 gcc_cv_initfini_array=${gcc_cv_initfini_array=yes}
-gcc_cv_ld=${gcc_cv_ld=/root/cs161/tools/bin/mips-linux-ld}
+gcc_cv_ld=${gcc_cv_ld=/home/zdebardlebon/cs161/tools/bin/mips-linux-ld}
 gcc_cv_ld_as_needed=${gcc_cv_ld_as_needed=no}
-gcc_cv_ld_bfd_srcdir=${gcc_cv_ld_bfd_srcdir=/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/bfd}
+gcc_cv_ld_bfd_srcdir=${gcc_cv_ld_bfd_srcdir=/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/bfd}
 gcc_cv_ld_eh_frame_hdr=${gcc_cv_ld_eh_frame_hdr=yes}
-gcc_cv_ld_gld_srcdir=${gcc_cv_ld_gld_srcdir=/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/ld}
+gcc_cv_ld_gld_srcdir=${gcc_cv_ld_gld_srcdir=/home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/ld}
 gcc_cv_ld_hidden=${gcc_cv_ld_hidden=yes}
 gcc_cv_ld_pie=${gcc_cv_ld_pie=no}
 gcc_cv_ld_ro_rw_mix=${gcc_cv_ld_ro_rw_mix=read-write}
@@ -264,11 +264,11 @@ gcc_cv_ld_static_dynamic=${gcc_cv_ld_static_dynamic=yes}
 gcc_cv_ld_sysroot=${gcc_cv_ld_sysroot=no}
 gcc_cv_libc_provides_ssp=${gcc_cv_libc_provides_ssp=no}
 gcc_cv_mkdir_takes_one_arg=${gcc_cv_mkdir_takes_one_arg=no}
-gcc_cv_nm=${gcc_cv_nm=/root/cs161/tools/bin/mips-linux-nm}
-gcc_cv_objdump=${gcc_cv_objdump=/root/cs161/tools/bin/mips-linux-objdump}
+gcc_cv_nm=${gcc_cv_nm=/home/zdebardlebon/cs161/tools/bin/mips-linux-nm}
+gcc_cv_objdump=${gcc_cv_objdump=/home/zdebardlebon/cs161/tools/bin/mips-linux-objdump}
 gcc_cv_prog_LN_S=${gcc_cv_prog_LN_S='ln -s'}
 gcc_cv_prog_cmp_skip=${gcc_cv_prog_cmp_skip=gnucompare}
 gcc_cv_prog_makeinfo_modern=${gcc_cv_prog_makeinfo_modern=no}
-gcc_cv_tool_dirs=${gcc_cv_tool_dirs=/root/cs161/tools/libexec/gcc/mips-linux/4.1.2:/root/cs161/tools/libexec/gcc/mips-linux:/usr/lib/gcc/mips-linux/4.1.2:/usr/lib/gcc/mips-linux:/root/cs161/tools/mips-linux/bin/mips-linux/4.1.2:/root/cs161/tools/mips-linux/bin}
-gcc_cv_tool_prefix=${gcc_cv_tool_prefix=/root/cs161/tools}
+gcc_cv_tool_dirs=${gcc_cv_tool_dirs=/home/zdebardlebon/cs161/tools/libexec/gcc/mips-linux/4.1.2:/home/zdebardlebon/cs161/tools/libexec/gcc/mips-linux:/usr/lib/gcc/mips-linux/4.1.2:/usr/lib/gcc/mips-linux:/home/zdebardlebon/cs161/tools/mips-linux/bin/mips-linux/4.1.2:/home/zdebardlebon/cs161/tools/mips-linux/bin}
+gcc_cv_tool_prefix=${gcc_cv_tool_prefix=/home/zdebardlebon/cs161/tools}
 gcc_cv_type_clock_t=${gcc_cv_type_clock_t=yes}

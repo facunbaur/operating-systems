@@ -14,10 +14,10 @@
 
 SHELL = /bin/sh
 
-srcdir = /cs161/cs161-binutils-1.4/./binutils-2.14/binutils/doc
-top_srcdir = /cs161/cs161-binutils-1.4/./binutils-2.14/binutils
-VPATH = /cs161/cs161-binutils-1.4/./binutils-2.14/binutils/doc
-prefix = /root/cs161/tools
+srcdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/binutils/doc
+top_srcdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/binutils
+VPATH = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/binutils/doc
+prefix = /home/zdebardlebon/cs161/tools
 exec_prefix = ${prefix}
 
 bindir = ${exec_prefix}/bin
@@ -41,10 +41,10 @@ pkgincludedir = $(includedir)/binutils
 
 top_builddir = ..
 
-ACLOCAL = /cs161/cs161-binutils-1.4/binutils-2.14/missing aclocal
-AUTOCONF = /cs161/cs161-binutils-1.4/binutils-2.14/missing autoconf
-AUTOMAKE = /cs161/cs161-binutils-1.4/binutils-2.14/missing automake
-AUTOHEADER = /cs161/cs161-binutils-1.4/binutils-2.14/missing autoheader
+ACLOCAL = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing aclocal
+AUTOCONF = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing autoconf
+AUTOMAKE = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing automake
+AUTOHEADER = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing autoheader
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
@@ -98,11 +98,11 @@ INSTOBJEXT = .mo
 INTLDEPS = 
 INTLLIBS = 
 INTLOBJS = 
-LEX = /cs161/cs161-binutils-1.4/binutils-2.14/missing flex
+LEX = flex
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LN_S = ln -s
 MAINT = #
-MAKEINFO = /cs161/cs161-binutils-1.4/binutils-2.14/missing makeinfo
+MAKEINFO = /home/zdebardlebon/cs161/cs161-binutils-1.4/binutils-2.14/missing makeinfo
 MKINSTALLDIRS = $(srcdir)/../../mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 NLMCONV_DEFS = 

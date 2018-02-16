@@ -24,7 +24,7 @@
 # -------------------------------
 # Standard Autoconf-set variables
 # -------------------------------
-VPATH=/cs161/cs161-binutils-1.4/./binutils-2.14
+VPATH=/home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14
 
 build_alias=x86_64-unknown-linux-gnu
 build_cpu=x86_64
@@ -44,10 +44,10 @@ target_canonical=mips-unknown-linux-gnu
 
 program_transform_name = s,^,mips-linux-,; 
 
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 exec_prefix = ${prefix}
 
-srcdir = /cs161/cs161-binutils-1.4/./binutils-2.14
+srcdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14
 
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -90,7 +90,7 @@ gcc_version_trigger =
 gcc_version = 4.8.5
 
 # The gcc driver likes to know the arguments it was configured with.
-TOPLEVEL_CONFIGURE_ARGUMENTS=/cs161/cs161-binutils-1.4/./binutils-2.14/configure --target=mips-linux --nfp --prefix=/root/cs161/tools
+TOPLEVEL_CONFIGURE_ARGUMENTS=/home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/configure --target=mips-linux --nfp --prefix=/home/zdebardlebon/cs161/tools
 
 gxx_include_dir = ${prefix}/include/c++/4.8.5
 libstdcxx_incdir = c++/4.8.5
@@ -122,13 +122,13 @@ BUILD_CONFIGDIRS = libiberty
 BUILD_SUBDIR = build-x86_64-unknown-linux-gnu
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the build system.
-BUILD_CONFIGARGS = --cache-file=../config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --nfp --prefix=/root/cs161/tools
+BUILD_CONFIGARGS = --cache-file=../config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --nfp --prefix=/home/zdebardlebon/cs161/tools
 
 # This is the list of directories to built for the host system.
 SUBDIRS =  intl libiberty opcodes bfd binutils gas ld etc
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the host system.
-HOST_CONFIGARGS = --cache-file=.././config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-linux  --with-gnu-as --with-gnu-ld --with-stabs --nfp --prefix=/root/cs161/tools
+HOST_CONFIGARGS = --cache-file=.././config.cache --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=mips-linux  --with-gnu-as --with-gnu-ld --with-stabs --nfp --prefix=/home/zdebardlebon/cs161/tools
 
 # This is set by the configure script to the list of directories which
 # should be built using the target tools.
@@ -137,7 +137,7 @@ TARGET_CONFIGDIRS =
 TARGET_SUBDIR = mips-linux
 # This is set by the configure script to the arguments to use when configuring
 # directories built for the target.
-TARGET_CONFIGARGS = --cache-file=../config.cache --host=mips-linux --build=x86_64-unknown-linux-gnu --enable-multilib --with-cross-host=x86_64-unknown-linux-gnu --nfp --prefix=/root/cs161/tools
+TARGET_CONFIGARGS = --cache-file=../config.cache --host=mips-linux --build=x86_64-unknown-linux-gnu --enable-multilib --with-cross-host=x86_64-unknown-linux-gnu --nfp --prefix=/home/zdebardlebon/cs161/tools
 
 # ----------------------------------------------
 # Programs producing files for the BUILD machine
@@ -181,13 +181,13 @@ USUAL_YACC = `if [ -f $$r/bison/bison ] ; then \
 	    echo ${DEFAULT_YACC} ; \
 	fi`
 
-DEFAULT_LEX = 
+DEFAULT_LEX = flex
 LEX=$(USUAL_LEX)
 USUAL_LEX = `if [ -f $$r/flex/flex ] ; \
 	then echo $$r/flex/flex ; \
 	else echo ${DEFAULT_LEX} ; fi`
 
-DEFAULT_M4 = 
+DEFAULT_M4 = m4
 M4 = `if [ -f $$r/m4/m4 ] ; \
 	then echo $$r/m4/m4 ; \
 	else echo ${DEFAULT_M4} ; fi`

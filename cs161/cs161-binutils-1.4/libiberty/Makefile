@@ -27,11 +27,11 @@
 # Makefile for libiberty directory
 #
 
-libiberty_topdir = /cs161/cs161-binutils-1.4/./binutils-2.14/libiberty/..
-srcdir = /cs161/cs161-binutils-1.4/./binutils-2.14/libiberty
-VPATH = /cs161/cs161-binutils-1.4/./binutils-2.14/libiberty
+libiberty_topdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/libiberty/..
+srcdir = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/libiberty
+VPATH = /home/zdebardlebon/cs161/cs161-binutils-1.4/./binutils-2.14/libiberty
 
-prefix = /root/cs161/tools
+prefix = /home/zdebardlebon/cs161/tools
 
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin

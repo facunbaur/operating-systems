@@ -26,8 +26,8 @@
 # Makefile for libiberty/testsuite directory
 #
 
-srcdir = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
-VPATH = /cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
+srcdir = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
+VPATH = /home/zdebardlebon/cs161/cs161-gcc-1.5/./gcc-4.1.2+cs161/libiberty/testsuite
 
 SHELL = /bin/sh
 
